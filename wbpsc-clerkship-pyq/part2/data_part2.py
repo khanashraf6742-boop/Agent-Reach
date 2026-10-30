@@ -1,0 +1,673 @@
+"""WBPSC Clerkship Part-II (conventional) -- two most-expected papers.
+
+Verified structure of Part-II (Advt. 13/2023 and 12/2024, psc.wb.gov.in):
+    100 marks, 60 minutes, six questions, conventional/descriptive.
+    Group A -- English (50): report drafting from points supplied, condensing of a prose
+              passage (precis/summary), translation from Bengali/Hindi/Urdu/Nepali/Santali
+              into English.
+    Group B -- Bengali/Hindi/Urdu/Nepali/Santali (50): the same three tasks in the
+              candidate's chosen language.
+    Standard: Madhyamik. Revealing identity in the script costs 10% of the paper's full marks.
+
+Marks inside a group (20 + 15 + 15) are a working split for practice: the Commission fixes the
+group totals at 50 each, but does not print a per-question split on the booklet.
+
+Every question carries:
+  points/check   -> the supplied material and the facts the model answer must carry
+  model          -> the full model answer (title + body)
+  marking        -> an itemised breakdown that must add up to the question's marks
+  notes          -> examiner's notes / common errors
+  must           -> tokens that must survive into the model answer (coverage test)
+"""
+
+PAPERS = [{'name': 'Paper 1',
+  'questions': [{'no': 1,
+                 'group': 'A',
+                 'type': 'report',
+                 'marks': 20,
+                 'minutes': 11,
+                 'instruction': 'Write a report in about ১৫০-২০০ words on the blood donation camp '
+                                'held in your office, using the points supplied below. Give the '
+                                'report a headline and a dateline.',
+                 'points': [{'text': 'Held on 14 August 2026, 10 a.m. to 4 p.m.',
+                             'check': ['14 august 2026', '10 a.m.', '4 p.m.']},
+                            {'text': 'Venue: office premises, Sector V, Salt Lake.',
+                             'check': ['sector v', 'salt lake']},
+                            {'text': 'Organised by the Staff Welfare Association with the District '
+                                     'Blood Bank.',
+                             'check': ['staff welfare association', 'district blood bank']},
+                            {'text': 'Inaugurated by the Director, who spoke of the shortage of '
+                                     'blood in government hospitals.',
+                             'check': ['director', 'shortage of blood']},
+                            {'text': '120 employees registered and 87 units of blood were '
+                                     'collected.',
+                             'check': ['120', '87']},
+                            {'text': 'Two doctors and four nurses from the blood bank supervised '
+                                     'the work.',
+                             'check': ['two doctors', 'four nurses']},
+                            {'text': 'Donors were given certificates and refreshments.',
+                             'check': ['certificate', 'refreshments']},
+                            {'text': 'The association has decided to hold the camp every year.',
+                             'check': ['every year']}],
+                 'model': {'title': 'BLOOD DONATION CAMP COLLECTS 87 UNITS AT SALT LAKE OFFICE',
+                           'body': 'Salt Lake, 14 August 2026: A voluntary blood donation camp was '
+                                   'held on the office premises in Sector V from 10 a.m. to 4 p.m. '
+                                   'on Friday. The camp was organised by the Staff Welfare '
+                                   'Association in collaboration with the District Blood Bank.\n'
+                                   '\n'
+                                   'The Director inaugurated the camp. In a short address he drew '
+                                   'attention to the acute shortage of blood in government '
+                                   'hospitals, particularly during the monsoon months, and urged '
+                                   'employees to treat donation as a routine duty rather than a '
+                                   'special occasion.\n'
+                                   '\n'
+                                   'Altogether 120 employees registered at the reception counter, '
+                                   'and 87 units of blood were collected during the day. Two '
+                                   'doctors and four nurses from the District Blood Bank '
+                                   'supervised the screening and the collection, and no donor was '
+                                   'allowed to proceed without a preliminary medical check.\n'
+                                   '\n'
+                                   'Every donor was given a certificate and refreshments. Speaking '
+                                   'at the close of the camp, the secretary of the association '
+                                   'said the response had exceeded expectation and announced that '
+                                   'the camp would now be held every year in August.'},
+                 'marking': [('Headline, dateline, by-line and opening sentence', 4),
+                             ('All eight supplied points carried, none invented', 8),
+                             ('Grammar, spelling and official vocabulary', 5),
+                             ('Logical sequence (inauguration → figures → close)', 2),
+                             ('Length kept within ১৫০-২০০ words', 1)],
+                 'notes': ["A report is written in the third person and in the past tense. 'I "
+                           "organised the camp' loses the format mark; 'The camp was organised' "
+                           'keeps it.',
+                           'Every supplied point must appear. Points left out are marked down one '
+                           'by one, which is why eight missing facts cost more than a few '
+                           'grammatical slips.',
+                           "Do not add opinions ('it was a wonderful programme'). A report "
+                           'records, it does not praise.'],
+                 'must': ['14 august 2026',
+                          'sector v',
+                          'staff welfare association',
+                          'district blood bank',
+                          'director',
+                          '120',
+                          '87',
+                          'certificate',
+                          'refreshments',
+                          'every year']},
+                {'no': 2,
+                 'group': 'A',
+                 'type': 'precis',
+                 'marks': 15,
+                 'minutes': 9,
+                 'instruction': 'Write a précis of the following passage in about one-third of its '
+                                'length (about 85 words) and give it a suitable title.',
+                 'passage': 'Reading is a habit that is easy to praise and difficult to acquire. '
+                            'Most people agree that books are valuable, yet few can find half an '
+                            'hour a day for them. The reason is not a shortage of time but the way '
+                            'time is spent. A reader who waits for a free evening will wait for '
+                            'ever; a reader who keeps a book within reach reads a page while a bus '
+                            'is late, a paragraph while tea is brewing, and finishes a chapter in '
+                            "a week without ever sitting down 'to read'.\n"
+                            '\n'
+                            'The habit, once formed, pays in ways that are not immediately '
+                            "visible. A newspaper read carefully teaches the geography of one's "
+                            'own district and the working of its courts; a novel teaches how other '
+                            'people think before they speak. Neither lesson can be examined, but '
+                            'both are used daily in an office where letters must be answered and '
+                            'quarrels must be settled.\n'
+                            '\n'
+                            'There is also a quieter gain. Reading is the only entertainment that '
+                            'leaves the mind clearer than it found it. A film ends and the evening '
+                            'is over; a book ends and a question begins. For a student preparing '
+                            'for an examination this is not a small advantage. The candidate who '
+                            'has read widely rarely panics at an unfamiliar question, because he '
+                            'has met unfamiliar ideas before and has learnt to sit with them until '
+                            'they make sense.',
+                 'model': {'title': 'The Value of Reading',
+                           'body': 'The difficulty in becoming a reader lies less in finding hours '
+                                   'than in using the minutes already free: a book kept nearby is '
+                                   'finished in scraps of waiting time. Such reading pays quietly, '
+                                   'since newspapers and novels supply a working knowledge of '
+                                   "one's own district and of other minds, which desk work draws "
+                                   'on daily. Unlike most amusements it leaves the mind clearer '
+                                   'than before, and an examinee who has read widely meets strange '
+                                   'questions calmly.'},
+                 'marking': [('Suitable title', 2),
+                             ('Central idea (time is mismanaged, not short) captured', 4),
+                             ('Compression to about one-third, in own words', 4),
+                             ('Grammar and coherence', 3),
+                             ('No comment, no example, no repetition', 2)],
+                 'notes': ['A précis is not a summary of everything; it is the argument, stripped. '
+                           'Three paragraphs became one because the passage makes one point three '
+                           'times.',
+                           "Never begin 'The passage says that...' and never add your own opinion. "
+                           'The précis must read as a piece of writing, not as a reply about a '
+                           'passage.',
+                           'Word limit is a marking item: an 85-word answer is safe, a 120-word '
+                           'answer is penalised however good it is.'],
+                 'must': ['shortage of time', 'odd moments', 'office work', 'unfamiliar'],
+                 'ratio': (0.28, 0.36)},
+                {'no': 3,
+                 'group': 'A',
+                 'type': 'translation',
+                 'marks': 15,
+                 'minutes': 7,
+                 'instruction': 'বাংলা অনুচ্ছেদটি ইংরেজিতে অনুবাদ করুন: Translate the following '
+                                'passage from Bengali into English.',
+                 'passage': 'বই পড়ার অভ্যাস আজকের ব্যস্ত জীবনে ক্রমশ কমে আসছে। অনেকের ধারণা, বই '
+                            'কেবল পরীক্ষার জন্যই প্রয়োজন। কিন্তু বই মানুষের চিন্তাশক্তিকে '
+                            'প্রসারিত করে এবং তাকে নিজের চারপাশের সমাজ সম্পর্কে সচেতন করে তোলে। '
+                            'একটি ভালো বই মনকে যেমন আনন্দ দেয়, তেমনি জীবনের কঠিন সময়ে পথ দেখায়। '
+                            'আমাদের দেশে গণগ্রন্থাগারের সংখ্যা যথেষ্ট নয়; ফলে গ্রামের '
+                            'ছাত্রছাত্রীরা এই সুযোগ থেকে বঞ্চিত হয়। তাই প্রত্যেক পঞ্চায়েতে একটি '
+                            'করে গ্রন্থাগার গড়ে তোলা প্রয়োজন।',
+                 'model': {'title': '',
+                           'body': "The habit of reading books is steadily declining in today's "
+                                   'busy life. Many people think that books are needed only for '
+                                   "examinations. But books broaden a person's power of thought "
+                                   'and make him conscious of the society around him. A good book '
+                                   'gives pleasure to the mind and also shows the way in the '
+                                   'difficult moments of life. In our country the number of public '
+                                   'libraries is not sufficient; as a result, students in the '
+                                   'villages are deprived of this opportunity. It is therefore '
+                                   'necessary to set up a library in every panchayat.'},
+                 'marking': [('Faithfulness to the original (no meaning changed)', 7),
+                             ('Completeness (no sentence or idea dropped)', 4),
+                             ('English idiom, tense and sentence construction', 3),
+                             ('Spelling and punctuation', 1)],
+                 'notes': ["Translate sentence by sentence, not word by word. 'গণগ্রন্থাগার' is a "
+                           "public library, not a 'mass library'.",
+                           "Keep the pronouns consistent: one person is 'he' or 'she' throughout, "
+                           'not both.',
+                           'If a word is unknown, translate the idea rather than leaving a blank. '
+                           'A blank costs the completeness mark and signals panic to the '
+                           'examiner.'],
+                 'must': ['habit of reading',
+                          'examinations',
+                          'thought',
+                          'society',
+                          'pleasure',
+                          'libraries',
+                          'villages',
+                          'panchayat']},
+                {'no': 4,
+                 'group': 'B',
+                 'type': 'report',
+                 'marks': 20,
+                 'minutes': 11,
+                 'instruction': 'নিচের পয়েন্টগুলি অবলম্বন করে প্রায় ১৫০-২০০ শব্দে একটি রিপোর্ট '
+                                'লিখুন। শিরোনাম ও তারিখ উল্লেখ করুন।',
+                 'points': [{'text': '৫ জুন ২০২৬, সকাল ৯টায় বৃক্ষরোপণ কর্মসূচি',
+                             'check': ['৫ জুন ২০২৬', 'সকাল']},
+                            {'text': 'স্থান: দপ্তরের প্রাঙ্গণ', 'check': ['দপ্তরের প্রাঙ্গণ']},
+                            {'text': 'আয়োজনে কর্মচারী কল্যাণ সমিতি ও স্থানীয় বন দপ্তর',
+                             'check': ['কর্মচারী কল্যাণ সমিতি', 'বন দপ্তর']},
+                            {'text': 'উদ্বোধন করেন জেলাশাসক; গাছের প্রয়োজনীয়তা নিয়ে বক্তব্য',
+                             'check': ['জেলাশাসক', 'বক্তব্য']},
+                            {'text': '২০০টি চারাগাছ রোপণ', 'check': ['২০০']},
+                            {'text': 'কর্মচারী ও স্থানীয় ছাত্রছাত্রীদের অংশগ্রহণ',
+                             'check': ['ছাত্রছাত্রী']},
+                            {'text': 'প্রত্যেক অংশগ্রহণকারীকে একটি করে চারা বিতরণ',
+                             'check': ['চারা বিতরণ']},
+                            {'text': 'প্রতি বছর এই কর্মসূচি নেওয়ার সিদ্ধান্ত',
+                             'check': ['প্রতি বছর']},
+                            {'text': 'কর্মসূচির শেষে উপস্থিত সকলকে পরিবেশ রক্ষার শপথ পাঠ করানো হয়',
+                             'check': ['শপথ']},
+                            {'text': 'স্থানীয় বিদ্যালয়ের শিক্ষকরা সার্বিক ব্যবস্থাপনায় সহায়তা '
+                                     'করেন',
+                             'check': ['শিক্ষক']}],
+                 'model': {'title': 'দপ্তরে বৃক্ষরোপণ কর্মসূচি: ২০০ চারাগাছ রোপণ',
+                           'body': 'কলকাতা, ৫ জুন ২০২৬: বিশ্ব পরিবেশ দিবস উপলক্ষে সকাল ৯টায় '
+                                   'দপ্তরের প্রাঙ্গণে একটি বৃক্ষরোপণ কর্মসূচি অনুষ্ঠিত হয়। '
+                                   'কর্মসূচিটি কর্মচারী কল্যাণ সমিতি ও স্থানীয় বন দপ্তরের যৌথ '
+                                   'উদ্যোগে আয়োজিত হয়।\n'
+                                   '\n'
+                                   'কর্মসূচির উদ্বোধন করেন জেলাশাসক। সংক্ষিপ্ত বক্তব্যে তিনি গাছের '
+                                   'প্রয়োজনীয়তা ও বৃক্ষচ্ছেদনের ভয়াবহ ফলাফল নিয়ে আলোচনা করেন '
+                                   'এবং বলেন, একটি শহরের সবুজ আচ্ছাদন রক্ষা করা প্রশাসনের একার '
+                                   'পক্ষে সম্ভব নয়, সাধারণ মানুষের সহযোগিতা প্রয়োজন। তিনি আরও '
+                                   'বলেন, গাছ লাগানোই যথেষ্ট নয়, তার যত্ন নেওয়াও সমান জরুরি।\n'
+                                   '\n'
+                                   'এরপর উপস্থিতদের সহযোগিতায় দপ্তরের প্রাঙ্গণে ২০০টি চারাগাছ '
+                                   'রোপণ করা হয়। কর্মসূচিতে কর্মচারীদের পাশাপাশি স্থানীয় '
+                                   'বিদ্যালয়ের ছাত্রছাত্রীরা অংশ নেয়; বিদ্যালয়ের শিক্ষকরা '
+                                   'সার্বিক ব্যবস্থাপনায় সহায়তা করেন। প্রত্যেক অংশগ্রহণকারীকে '
+                                   'একটি করে চারা বিতরণ করা হয়, যাতে তারা নিজের বাড়িতে তা রোপণ '
+                                   'করে যত্ন নিতে পারে।\n'
+                                   '\n'
+                                   'কর্মসূচির শেষে উপস্থিত সকলকে পরিবেশ রক্ষার শপথ পাঠ করানো হয়। '
+                                   'সমিতির সম্পাদক জানান যে, প্রতি বছর এই কর্মসূচি অনুষ্ঠিত হবে '
+                                   'এবং পরবর্তী বছরে অন্য বিভাগগুলিকেও এর অন্তর্ভুক্ত করার '
+                                   'প্রচেষ্টা নেওয়া হবে।'},
+                 'marking': [('শিরোনাম, তারিখ ও সম্পাদকের লেখা রিপোর্টের কাঠামো', 4),
+                             ('আটটি পয়েন্টের সম্পূর্ণ উপস্থাপনা', 8),
+                             ('ভাষা, বানান ও বাক্যগঠন', 5),
+                             ('ঘটনার স্বাভাবিক ক্রম', 2),
+                             ('শব্দসংখ্যার সীমা', 1)],
+                 'notes': ["রিপোর্ট সবসময় তৃতীয় পুরুষে ও অতীতকালে লিখতে হয়। 'আমি গাছ লাগালাম' "
+                           'লিখলে কাঠামোর নম্বর কাটা যাবে।',
+                           'যে আটটি পয়েন্ট দেওয়া আছে, সেগুলি অবশ্যই থাকতে হবে; নিজের মতামত যোগ '
+                           'করলে বিশ্বাসযোগ্যতা কমে।',
+                           'সংখ্যা বাংলায় লেখা ভালো, তবে পরিষ্কারতা গুরুত্বপূর্ণ।'],
+                 'must': ['৫ জুন ২০২৬',
+                          'দপ্তরের প্রাঙ্গণ',
+                          'কর্মচারী কল্যাণ সমিতি',
+                          'জেলাশাসক',
+                          '২০০',
+                          'ছাত্রছাত্রী',
+                          'প্রতি বছর',
+                          'শপথ',
+                          'শিক্ষক']},
+                {'no': 5,
+                 'group': 'B',
+                 'type': 'precis',
+                 'marks': 15,
+                 'minutes': 9,
+                 'instruction': 'নিচের অনুচ্ছেদটির প্রায় এক-তৃতীয়াংশ শব্দে সারাংশ লিখুন এবং '
+                                'উপযুক্ত শিরোনাম দিন।',
+                 'passage': 'প্লাস্টিক আজ আমাদের দৈনন্দিন জীবনের অবিচ্ছেদ্য অংশ হয়ে গেছে। থলে, '
+                            'কৌটা, বোতল, ব্যাগ — সবখানেই প্লাস্টিক। সহজলভ্যতা আর কম দামের কারণে '
+                            'এটি দ্রুত জনপ্রিয় হয়েছে, কিন্তু এর ফলে যে ক্ষতি হচ্ছে, তা কোনো '
+                            'হিসাবে ধরা যায় না।\n'
+                            '\n'
+                            'একবার ব্যবহার করা প্লাস্টিক মাটিতে মিশে যায়, অনেক সময় নদীর জলে '
+                            'গিয়ে সমুদ্রে পড়ে। মাছেরা এই টুকরোকে খাবার ভেবে ভুল করে গিলে ফেলে; '
+                            'তাদের শরীরে প্লাস্টিকের কণা ঢুকে মানুষের খাদ্যশৃঙ্খলে পৌঁছে যায়। '
+                            'আবার প্লাস্টিক পোড়ানোর ফলে যে বিষাক্ত ধোঁয়া বের হয়, তা বাতাসে মিশে '
+                            'শ্বাস-প্রশ্বাসে রোগের কারণ হয়।\n'
+                            '\n'
+                            'তাই একমাত্র উপায় হল প্লাস্টিকের ব্যবহার কমানো ও পুনর্ব্যবহার '
+                            'বাড়ানো। কেবল সরকারের নিষেধাজ্ঞা যথেষ্ট নয়; প্রত্যেক ব্যক্তিকে '
+                            'বাজারে থলে নিয়ে যেতে হবে, কাগজের ব্যাগ বার বার ব্যবহার করতে হবে। ছোট '
+                            'অভ্যাসটি আজ শুরু করলে আগামী প্রজন্ম এর সুফল পাবে।',
+                 'model': {'title': 'প্লাস্টিকের ক্ষতি ও প্রতিকার',
+                           'body': 'প্লাস্টিক সহজলভ্য ও সস্তা, ব্যবহার তাই বেড়েছে, কিন্তু এর '
+                                   'ক্ষতি সহজে সরানো যায় না। এর কণা মাটি ও নদীর জল থেকে সমুদ্রে '
+                                   'পৌঁছে মাছের শরীরে এবং পোড়ানোর বিষাক্ত ধোঁয়ায় মানুষের খাদ্য '
+                                   'ও শ্বাসে প্রবেশ করে। শুধু নিষেধাজ্ঞা নয়, সচেতনতাই এর '
+                                   'প্রতিকার।'},
+                 'marking': [('উপযুক্ত শিরোনাম', 2),
+                             ('মূল ভাব ধরা (ক্ষতি ও প্রতিকার)', 4),
+                             ('নিজের ভাষায় সংক্ষেপণ', 4),
+                             ('ভাষা ও সংযোগ', 3),
+                             ('ব্যক্তিগত মতামত বর্জন', 2)],
+                 'notes': ['সারাংশে কোনো উদাহরণ বা নিজের মতামত থাকবে না।',
+                           'মূল অনুচ্ছেদের বাক্য হুবহু কপি করলে মার্ক কাটা যাবে; বাক্য ছোট করে, '
+                           'নিজের শব্দে লিখতে হবে।',
+                           'শব্দসংখ্যা গণনা করে লেখা উচিত; সীমা ছাড়িয়ে গেলে নম্বর কাটা যায়।'],
+                 'must': ['প্লাস্টিক', 'ক্ষতি', 'মাছ', 'নিষেধাজ্ঞা'],
+                 'ratio': (0.28, 0.38)},
+                {'no': 6,
+                 'group': 'B',
+                 'type': 'translation',
+                 'marks': 15,
+                 'minutes': 7,
+                 'instruction': 'Translate the following passage from English into Bengali: নিচের '
+                                'ইংরেজি অনুচ্ছেদটি বাংলায় অনুবাদ করুন।',
+                 'passage': 'The number of road accidents in our country is rising every year. '
+                            'Most of these accidents could be avoided if drivers obeyed a few '
+                            'simple rules. Overspeeding is the chief cause, especially on the '
+                            'highways. Many drivers use mobile phones while driving, and some '
+                            'overtake at blind corners. Pedestrians are equally careless; they '
+                            'cross busy roads without using the footbridge or the zebra crossing. '
+                            'The traffic police cannot be present everywhere. What is really '
+                            'needed is a habit of patience. A driver who saves five minutes by '
+                            'dangerous driving may lose his whole life, and the lives of others '
+                            'with it.',
+                 'model': {'title': '',
+                           'body': 'আমাদের দেশে সড়ক দুর্ঘটনার সংখ্যা প্রতি বছর বেড়ে চলছে। '
+                                   'চালকেরা কিছু সহজ নিয়ম মানলে এই দুর্ঘটনার বেশির ভাগ এড়ানো '
+                                   'যেত। বিশেষ করে মহাসড়কে অতিরিক্ত গতিতে চলাই প্রধান কারণ। অনেক '
+                                   'চালক গাড়ি চালানোর সময় মোবাইল ফোন ব্যবহার করেন, আবার কেউ কেউ '
+                                   'অন্ধ বাঁকে অতিক্রম করেন। পথচারীরাও কম সাবধান নন; তারা উড়ো '
+                                   'সেতু বা জিব্রা ক্রসিং ব্যবহার না করে ব্যস্ত সড়ক পার হন। '
+                                   'ট্রাফিক পুলিশ সব জায়গায় উপস্থিত থাকতে পারেন না। প্রকৃতপক্ষে '
+                                   'যা প্রয়োজন, তা হল ধৈর্যের অভ্যাস। যে চালক বিপজ্জনকভাবে গাড়ি '
+                                   'চালিয়ে পাঁচ মিনিট বাঁচান, তিনি তাঁর সারা জীবন এবং অন্যদের '
+                                   'জীবনও হারাতে পারেন।'},
+                 'marking': [('Faithfulness to the original', 7),
+                             ('Completeness (every sentence carried)', 4),
+                             ('Idiomatic Bengali, correct verb forms', 3),
+                             ('Spelling, punctuation, script', 1)],
+                 'notes': ["'Zebra crossing' is জিব্রা ক্রসিং; 'footbridge' is উড়ো সেতু. Do not "
+                           'transliterate whole English sentences into Bengali letters.',
+                           'Keep the last sentence as one sentence with two clauses; breaking it '
+                           "into three short sentences loses the argument's punch and marks for "
+                           'cohesion.',
+                           'Write the Bengali in your own hand legibly; an unreadable word is '
+                           'marked as an omission even when it was correct in your mind.'],
+                 'must': ['সড়ক', 'দুর্ঘটন', 'মোবাইল', 'জিব্রা', 'পুলিশ', 'ধৈর্য']}]},
+ {'name': 'Paper 2',
+  'questions': [{'no': 1,
+                 'group': 'A',
+                 'type': 'report',
+                 'marks': 20,
+                 'minutes': 11,
+                 'instruction': 'Write a report in about ১৫০-২০০ words on the one-day computer '
+                                'training programme held for office staff, using the points '
+                                'supplied below. Give the report a headline and a dateline.',
+                 'points': [{'text': 'Held on 12 September 2026, 9 a.m. to 5 p.m., in the district '
+                                     'office conference hall.',
+                             'check': ['12 september 2026', 'conference hall']},
+                            {'text': 'Jointly organised by the district administration and the '
+                                     'National Informatics Centre.',
+                             'check': ['district administration', 'national informatics centre']},
+                            {'text': 'Sixty clerks from different departments attended.',
+                             'check': ['sixty', 'clerks']},
+                            {'text': 'Topics covered: word processing, spreadsheets, e-mail and '
+                                     'e-office file movement.',
+                             'check': ['word processing', 'spreadsheets', 'e-office']},
+                            {'text': 'Hands-on practice was given in two batches.',
+                             'check': ['two batches']},
+                            {'text': 'Certificates were distributed by the Additional District '
+                                     'Magistrate.',
+                             'check': ['additional district magistrate', 'certificates']},
+                            {'text': 'Feedback was collected at the end of the day.',
+                             'check': ['feedback']},
+                            {'text': 'A follow-up session was promised within three months.',
+                             'check': ['follow-up', 'three months']}],
+                 'model': {'title': 'CLERKS TRAINED IN E-OFFICE WORK AT ONE-DAY PROGRAMME',
+                           'body': 'Kolkata, 12 September 2026: A one-day training programme on '
+                                   'computer operations for office staff was held in the district '
+                                   'office conference hall from 9 a.m. to 5 p.m. on Saturday. The '
+                                   'programme was jointly organised by the district administration '
+                                   'and the National Informatics Centre.\n'
+                                   '\n'
+                                   'Sixty clerks drawn from different departments of the district '
+                                   'took part. The morning session dealt with word processing and '
+                                   'spreadsheets, and the afternoon was given to e-mail and to the '
+                                   'movement of files through the e-office system, which has '
+                                   'replaced paper files in most departments.\n'
+                                   '\n'
+                                   'Practice was arranged in two batches so that every participant '
+                                   'had a terminal to work on. Trainers from the National '
+                                   'Informatics Centre moved from desk to desk and corrected '
+                                   'individual mistakes, particularly in file numbering and in the '
+                                   'use of digital signatures.\n'
+                                   '\n'
+                                   'At the close of the day the Additional District Magistrate '
+                                   'distributed certificates and asked the trainees to use the new '
+                                   'system from the following Monday. Feedback was collected from '
+                                   'every participant, and the organisers promised a follow-up '
+                                   'session within three months.'},
+                 'marking': [('Headline, dateline and opening sentence', 4),
+                             ('All eight supplied points carried, none invented', 8),
+                             ('Grammar, spelling and official vocabulary', 5),
+                             ('Logical sequence (inauguration → training → close)', 2),
+                             ('Length kept within ১৫০-২০০ words', 1)],
+                 'notes': ['A report on a training programme must say what was taught, not merely '
+                           'that it was held. The four topics in the points are the content marks.',
+                           "Use 'was held', 'were distributed', 'was collected' - the passive "
+                           'voice suits official reporting and keeps the writer out of the story.',
+                           'Do not confuse a report with a notice. A notice announces an event; a '
+                           'report describes it after it has happened.'],
+                 'must': ['12 september 2026',
+                          'conference hall',
+                          'district administration',
+                          'national informatics centre',
+                          'sixty',
+                          'word processing',
+                          'spreadsheets',
+                          'two batches',
+                          'additional district magistrate',
+                          'feedback',
+                          'follow-up']},
+                {'no': 2,
+                 'group': 'A',
+                 'type': 'precis',
+                 'marks': 15,
+                 'minutes': 9,
+                 'instruction': 'Write a précis of the following passage in about one-third of its '
+                                'length (about 85 words) and give it a suitable title.',
+                 'passage': 'Every year the monsoon arrives with a promise and leaves a complaint. '
+                            'The rain that should fill our tanks and ponds runs off the roofs, '
+                            'down the drains and into the river, and within a month the same wards '
+                            'are queuing for tankers. The fault is not the weather but the way our '
+                            'towns are built. Concrete covers the ground so completely that the '
+                            'earth has no chance to drink, and the water that should have '
+                            'recharged the wells is thrown away as a nuisance.\n'
+                            '\n'
+                            'Rainwater harvesting is not a new technology; it is an old habit that '
+                            'we abandoned. A hundred years ago every Bengali house had a tank, and '
+                            'the householder who built one was respected for it. The principle is '
+                            'simple: catch the rain where it falls, store what can be stored, and '
+                            'let the rest soak into the ground through a pit or a well. A single '
+                            'roof in a crowded lane can supply a family for weeks and recharge the '
+                            "neighbour's well at the same time.\n"
+                            '\n'
+                            'What is needed is not money but attention. A pit costs less than a '
+                            'mobile phone, and a rule that every new building must provide one '
+                            'costs nothing at all, except the will to enforce it. Cities that have '
+                            'done this are not richer than ours; they were merely earlier to '
+                            'understand that water is not a supply to be pumped but a cycle to be '
+                            'respected.',
+                 'model': {'title': 'Catching the Rain',
+                           'body': 'The monsoon is squandered by our building rather than by the '
+                                   'weather: paving seals the soil, so water that ought to refill '
+                                   'wells is treated as waste. Harvesting is an old habit we gave '
+                                   'up: trap the rain as it descends, keep what can be kept, and '
+                                   'let the remainder sink through a pit. The remedy asks for '
+                                   'attention, not funds; cities that managed it were only quicker '
+                                   'to see water as a cycle rather than a supply.'},
+                 'marking': [('Suitable title', 2),
+                             ('Central idea (the fault is construction, not weather) captured', 4),
+                             ('Compression to about one-third, in own words', 4),
+                             ('Grammar and coherence', 3),
+                             ('No comment, no example, no repetition', 2)],
+                 'notes': ["The passage blames planning, not rainfall. A précis that says 'we "
+                           "should harvest rainwater' has written the conclusion but missed the "
+                           'diagnosis.',
+                           'One concrete example (the pit) may be kept if it carries the argument; '
+                           'two examples would blow the word limit.',
+                           "A title of two or three words is enough. 'Rainwater Harvesting: A "
+                           "Study of Urban Water Management' wastes the examiner's patience and "
+                           'your time.'],
+                 'must': ['monsoon', 'concrete', 'pit', 'cycle'],
+                 'ratio': (0.27, 0.37)},
+                {'no': 3,
+                 'group': 'A',
+                 'type': 'translation',
+                 'marks': 15,
+                 'minutes': 7,
+                 'instruction': 'বাংলা অনুচ্ছেদটি ইংরেজিতে অনুবাদ করুন: Translate the following '
+                                'passage from Bengali into English.',
+                 'passage': 'কম্পিউটার আজ কেবল বড় অফিসের জিনিস নয়, সাধারণ পরিবারের প্রতিদিনের '
+                            'প্রয়োজন। ব্যাংকের কাজ, টিকিট কাটা, সরকারি আবেদন — সব ক্ষেত্রেই '
+                            'ইন্টারনেট লাগে। এই প্রযুক্তি সময় বাঁচায়, কিন্তু একইসঙ্গে অনেককে কাজ '
+                            'থেকে বহিষ্কার করেছে। তাই অনেক যুবক-যুবতী এখন কম্পিউটার শিখতে চান। '
+                            'কিন্তু শুধু কম্পিউটার জানলে হবে না, তার সঙ্গে নিজের বিভাগের বিশেষ '
+                            'জ্ঞানও থাকা প্রয়োজন।',
+                 'model': {'title': '',
+                           'body': 'The computer is no longer an instrument of the big office '
+                                   'alone; it is a daily necessity in an ordinary household. '
+                                   'Banking, booking a ticket, applying to the government: the '
+                                   'internet is needed in every one of these spheres. This '
+                                   'technology saves time, but at the same time it has removed '
+                                   'many people from employment. That is why many young men and '
+                                   'women now want to learn computing. But knowing the computer '
+                                   "alone will not do; along with it, special knowledge of one's "
+                                   'own subject is necessary.'},
+                 'marking': [('Faithfulness to the original', 7),
+                             ('Completeness (no sentence dropped)', 4),
+                             ('English idiom and tense', 3),
+                             ('Spelling and punctuation', 1)],
+                 'notes': ["'সরকারি আবেদন' is an application to the government, not a 'government "
+                           "prayer'.",
+                           "'বহিষ্কার' means to render someone jobless - 'has thrown many people "
+                           "out of work' is better than the Latin 'redundancy'.",
+                           'Do not add a sentence of your own about digital India; the examiner is '
+                           'testing fidelity, and anything extra is marked as invention.'],
+                 'must': ['computer',
+                          'household',
+                          'banking',
+                          'internet',
+                          'technology',
+                          'employment',
+                          'young']},
+                {'no': 4,
+                 'group': 'B',
+                 'type': 'report',
+                 'marks': 20,
+                 'minutes': 11,
+                 'instruction': 'নিচের পয়েন্টগুলি অবলম্বন করে সড়ক নিরাপত্তা সপ্তাহ পালনের উপরে '
+                                'প্রায় ১৫০-২০০ শব্দে একটি রিপোর্ট লিখুন। শিরোনাম ও তারিখ দিন।',
+                 'points': [{'text': 'সপ্তাহটি পালিত হয় ১-৭ নভেম্বর ২০২৬',
+                             'check': ['১-৭ নভেম্বর ২০২৬']},
+                            {'text': 'আয়োজনে জেলা পরিবহন দপ্তর ও পুলিশ',
+                             'check': ['পরিবহন দপ্তর', 'পুলিশ']},
+                            {'text': 'উদ্বোধনে সকালে র্যালি ও মার্চ পাসিং',
+                             'check': ['র্যালি', 'মার্চ']},
+                            {'text': 'বিদ্যালয়ে স্বেচ্ছাসেবকদের দ্বারা সাইনবোর্ড বিতরণ',
+                             'check': ['স্বেচ্ছাসেবক', 'সাইনবোর্ড']},
+                            {'text': '১২০০ জন পথচারীকে সচেতন করা হয়', 'check': ['১২০০']},
+                            {'text': 'বিদ্যালয় ও বিশ্ববিদ্যালয়ে র্যালি ও প্রশ্নোত্তর অনুষ্ঠিত',
+                             'check': ['প্রশ্নোত্তর']},
+                            {'text': 'সপ্তাহে দুর্ঘটনার সংখ্যা উল্লেখযোগ্যভাবে কমেছে',
+                             'check': ['কমেছে']},
+                            {'text': 'পরবর্তী বছরে এই সপ্তাহ আবার পালনের সিদ্ধান্ত',
+                             'check': ['পরবর্তী বছরে']},
+                            {'text': 'সপ্তাহে শহরের তিনটি প্রধান মোড়ে প্রচারপত্র বিতরণ',
+                             'check': ['প্রচারপত্র']},
+                            {'text': 'শেষ দিনে কয়েকজন স্বেচ্ছাসেবককে সংবর্ধনা',
+                             'check': ['সংবর্ধনা']},
+                            {'text': 'সপ্তাহজুড়ে ৪০ জন স্বেচ্ছাসেবক শহরের বিভিন্ন মোড়ে দায়িত্ব '
+                                     'পালন করেন',
+                             'check': ['৪০ জন']}],
+                 'model': {'title': 'সড়ক নিরাপত্তা সপ্তাহ: দুর্ঘটনা উল্লেখযোগ্যভাবে কমেছে',
+                           'body': 'কলকাতা, ৮ নভেম্বর ২০২৬: জেলা পরিবহন দপ্তর ও পুলিশের যৌথ '
+                                   'উদ্যোগে ১-৭ নভেম্বর ২০২৬ পর্যন্ত সড়ক নিরাপত্তা সপ্তাহ পালিত '
+                                   'হয়।\n'
+                                   '\n'
+                                   'সপ্তাহের শুরুতেই প্রশাসনিক ভবন থেকে একটি র\u200d্যালি বের হয় '
+                                   'এবং মুখ্য অনুষ্ঠানে আরও একটি মার্চ পাসিং হয়। বিদ্যালয়ে '
+                                   'স্বেচ্ছাসেবকদের দ্বারা পথচারীদের সাইনবোর্ড বিতরণ করা হয়, যাতে '
+                                   'তারা রাস্তা পার হওয়ার নিয়ম সহজে মনে রাখতে পারেন। সপ্তাহে '
+                                   'শহরের তিনটি প্রধান মোড়ে প্রচারপত্রও বিতরণ করা হয়।\n'
+                                   '\n'
+                                   'সপ্তাহে মোট ১২০০ জন পথচারীকে সঠিকভাবে রাস্তা পার হওয়ার পদ্ধতি '
+                                   'সম্পর্কে সচেতন করা হয়। বিদ্যালয় ও বিশ্ববিদ্যালয়ে '
+                                   'ছাত্রছাত্রীদের নিয়ে র\u200d্যালি ও প্রশ্নোত্তর অনুষ্ঠিত হয়, '
+                                   'যেখানে তরুণদের কাছে হেলমেট ও সিটবেল্টের গুরুত্ব ব্যাখ্যা করা '
+                                   'হয়।\n'
+                                   '\n'
+                                   'সপ্তাহজুড়ে ৪০ জন স্বেচ্ছাসেবক শহরের বিভিন্ন মোড়ে দায়িত্ব '
+                                   'পালন করেন এবং পথচারীদের সাহায্য করেন।\n'
+                                   '\n'
+                                   'সপ্তাহের শেষে পরিবহন দপ্তরের পক্ষ থেকে জানানো হয় যে, এই '
+                                   'সপ্তাহে দুর্ঘটনার সংখ্যা উল্লেখযোগ্যভাবে কমেছে এবং পরবর্তী '
+                                   'বছরে এই সপ্তাহ আবার পালন করার সিদ্ধান্ত নেওয়া হয়েছে। শেষ '
+                                   'দিনে কয়েকজন স্বেচ্ছাসেবককে সংবর্ধনা দেওয়া হয়।'},
+                 'marking': [('শিরোনাম ও তারিখসহ রিপোর্টের কাঠামো', 4),
+                             ('আটটি পয়েন্টের সম্পূর্ণ উপস্থাপনা', 8),
+                             ('ভাষা, বানান ও বাক্যগঠন', 5),
+                             ('ঘটনার ক্রমবিন্যাস', 2),
+                             ('শব্দসংখ্যার সীমা', 1)],
+                 'notes': ['সপ্তাহের শেষে ফলাফল উল্লেখ করতে হবে; শুধু কর্মসূচির বর্ণনা লিখলে শেষ '
+                           'পয়েন্টটি বাদ যাবে।',
+                           'সংখ্যা ও তারিখ স্বাভাবিক ভাষায় বসাতে হবে, শুকনো তালিকার মতো নয়।'],
+                 'must': ['১-৭ নভেম্বর ২০২৬',
+                          'পরিবহন দপ্তর',
+                          'স্বেচ্ছাসেবক',
+                          '১২০০',
+                          'প্রশ্নোত্তর',
+                          'পরবর্তী বছরে',
+                          'প্রচারপত্র',
+                          'সংবর্ধনা',
+                          '৪০ জন']},
+                {'no': 5,
+                 'group': 'B',
+                 'type': 'precis',
+                 'marks': 15,
+                 'minutes': 9,
+                 'instruction': 'নিচের অনুচ্ছেদটির প্রায় এক-তৃতীয়াংশ শব্দে সারাংশ লিখুন এবং '
+                                'শিরোনাম দিন।',
+                 'passage': 'সময়ের মূল্য বোঝা যায় তখন, যখন তা হারিয়ে যায়। ছাত্রজীবনে আমরা '
+                            'প্রতিদিন কিছু সময় অলসে নষ্ট করি, আর বাকি সময় অপরিকল্পিত কাজে কাটাই। '
+                            'ব্যস্ততার অজুহাতে আমরা প্রতিদিন সময় হারাই; পরিকল্পনাই সময়কে রক্ষা '
+                            'করতে পারে।\n'
+                            '\n'
+                            'প্রশ্ন হল, পরিকল্পনা কেমন হবে? প্রথমত, কোন কাজটি আগে করতে হবে তা '
+                            'স্থির করা। দ্বিতীয়ত, যে কাজটি সবচেয়ে বেশি সময় নেয়, তা আগে সারিয়ে '
+                            'ফেলা। তৃতীয়ত, বিশ্রামকে অবহেলা না করা। ক্ষুদ্র বিশ্রামেই মন দ্রুত '
+                            'প্রাণ ফিরে পায়, অথচ অনেক ঘণ্টা একটানা বসে থাকলে শরীর ও মন দুটোই '
+                            'ক্লান্ত হয়ে পড়ে।\n'
+                            '\n'
+                            'শেষে সবচেয়ে গুরুত্বপূর্ণ কথা হল, সময়ের প্রতি সম্মান দেখানোর অভ্যাস '
+                            'ছোট ছোট কাজের মধ্য দিয়েই গড়ে ওঠে। যে ছাত্র ভোরে উঠে পড়তে বসে, সে '
+                            'সকালেই অন্য সবার আগে বেরিয়ে যায়। বিদ্যালয়ে এই অভ্যাস গড়ে না উঠলে '
+                            'কর্মজীবনে তার দাম অনেক বেশি দিতে হয়, কারণ অফিসে সময়ের হিসাব কেউ '
+                            'ক্ষমা করে না।',
+                 'model': {'title': 'সময়ের মূল্য',
+                           'body': 'সময়ের মূল্য বোঝা যায় তা হারিয়ে যাওয়ার পরেই। পরিকল্পনা '
+                                   'ছাড়া কাজ করলে প্রতিদিন সময় নষ্ট হয়। কোন কাজ আগে করতে হবে তা '
+                                   'স্থির করে, বেশি সময়ের কাজ আগে সারিয়ে, সামান্য বিশ্রাম নিলেই '
+                                   'সময় ও মন সুরক্ষিত থাকে। সময়কে সম্মান করার অভ্যাসই সাফল্যের '
+                                   'প্রথম শর্ত।'},
+                 'marking': [('শিরোনাম', 2),
+                             ('মূল ভাব (সময় ও পরিকল্পনা)', 4),
+                             ('সংক্ষেপণ ও নিজের শব্দ', 4),
+                             ('ভাষা ও সংযোগ', 3),
+                             ('অতিরিক্ত বিবরণ বর্জন', 2)],
+                 'notes': ['সারাংশে তিনটি পরামর্শ সংক্ষেপে একটি বাক্যে লিখলে ভাষা সুষম হয়।',
+                           'শেষ বাক্যটি মূল অনুচ্ছেদের সিদ্ধান্ত; এটি বাদ দিলে অর্ধেক নম্বর চলে '
+                           'যাবে।'],
+                 'must': ['সময়', 'পরিকল্পনা', 'বিশ্রাম', 'অভ্যাস'],
+                 'ratio': (0.28, 0.38)},
+                {'no': 6,
+                 'group': 'B',
+                 'type': 'translation',
+                 'marks': 15,
+                 'minutes': 7,
+                 'instruction': 'Translate the following passage from English into Bengali: নিচের '
+                                'ইংরেজি অনুচ্ছেদটি বাংলায়ে অনুবাদ করুন।',
+                 'passage': 'The Sundarbans are not a forest in the ordinary sense; they are a '
+                            'bargain between the land and the tide. Twice a day the salt water '
+                            'enters the creeks, and the trees that survive here have learnt to '
+                            'live with it. The mangrove roots stand above the mud like a crowd of '
+                            'walking sticks, holding the bank together when the cyclone comes. '
+                            'Without them, the villages behind the forest would be washed away in '
+                            'a single night.\n'
+                            '\n'
+                            'The forest also keeps a record. Every year the rivers bring down silt '
+                            'from the hills, and every year the tides carry part of it away, so '
+                            'that the islands move, shrink and appear again on a map that is never '
+                            'finished. People who live there speak of land that their grandfathers '
+                            'farmed and that is now under water. For them the Sundarbans is not a '
+                            'reserve to be visited but a neighbour to be watched carefully.',
+                 'model': {'title': '',
+                           'body': 'সুন্দরবন সাধারণ অর্থে একটি বন নয়; এটি জমি ও জোয়ারের মধ্যে '
+                                   'একটি সমঝোতা। দিনে দুবার লোনা জল খাঁড়িগুলিতে প্রবেশ করে, আর যে '
+                                   'গাছগুলি এখানে টিকে থাকে, সেগুলি তার সঙ্গে মিলেমিশে বাঁচতে '
+                                   'শিখেছে। ম্যানগ্রোভ গাছের শিকড় কাদা থেকে উঠে লাঠির সারির মতো '
+                                   'দাঁড়িয়ে থাকে এবং ঘূর্ণিঝড় এলে পাড়টিকে ধরে রাখে। সেগুলি না '
+                                   'থাকলে বনের পিছনের গ্রামগুলি এক রাতেই ভেসে যেত।\n'
+                                   '\n'
+                                   'বনটি একটি হিসাবও রাখে। প্রতি বছর পাহাড় থেকে নদী পাঁক বয়ে '
+                                   'আনে, আর প্রতি বছর জোয়ার তার কিছু অংশ বয়ে নিয়ে যায়; ফলে '
+                                   'দ্বীপগুলি সরে যায়, ছোট হয়, আবার উঠে পড়ে এমন একটি মানচিত্রে, '
+                                   'যা কখনও শেষ হয় না। সেখানে যারা বাস করে, তারা এমন জমির কথা বলে '
+                                   'যা তাদের ঠাকুরদারা চাষ করতেন আর যা এখন জলের নিচে। তাদের কাছে '
+                                   'সুন্দরবন ঘুরে দেখার সংরক্ষিত অঞ্চল নয়, বরং সাবধানে চোখে রাখার '
+                                   'প্রতিবেশী।'},
+                 'marking': [('Faithfulness to the original', 7),
+                             ('Completeness (every sentence carried)', 4),
+                             ('Idiomatic Bengali, correct verb forms', 3),
+                             ('Spelling, punctuation, script', 1)],
+                 'notes': ["'Bargain between the land and the tide' is metaphorical; translate the "
+                           'idea (রাজি) rather than the words.',
+                           "Keep 'Sundarbans' in Bengali as সুন্দরবন; proper nouns are not "
+                           'translated.',
+                           "The last sentence is long. Break it at 'For them' only if the Bengali "
+                           "demands it, and keep the contrast between 'a reserve to be visited' "
+                           "and 'a neighbour to be watched'."],
+                 'must': ['সুন্দরবন', 'জোয়ার', 'ম্যানগ্রোভ', 'জমি', 'প্রতিবেশী']}]}]
+
+META = {'marks': 100,
+ 'minutes': 60,
+ 'reading_minutes': 4,
+ 'checking_minutes': 2,
+ 'group_marks': {'A': 50, 'B': 50},
+ 'standard': 'Madhyamik',
+ 'identity_penalty': '10% of full marks',
+ 'note': 'Part-II: report from points, precis, translation; Group A English, Group B Bengali or '
+         'another language listed in the advertisement.'}

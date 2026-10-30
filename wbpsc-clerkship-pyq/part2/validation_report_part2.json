@@ -1,0 +1,18 @@
+{
+  "checked": 589,
+  "errors": [],
+  "warnings": [],
+  "papers": [
+    {
+      "name": "Paper 1",
+      "marks": 100,
+      "minutes": 54
+    },
+    {
+      "name": "Paper 2",
+      "marks": 100,
+      "minutes": 54
+    }
+  ],
+  "status": "PASS"
+}

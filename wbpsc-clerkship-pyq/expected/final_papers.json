@@ -1,0 +1,4837 @@
+{
+ "seed": 20261030,
+ "papers": [
+  {
+   "name": "Paper 1",
+   "source": "data_paper1.py",
+   "items": [
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct preposition: She is very good ____ mathematics.",
+     "options": [
+      "in",
+      "at",
+      "on",
+      "for"
+     ],
+     "answer_index": 1,
+     "answer": "at",
+     "explanation": "'Good at' is the fixed collocation used for skill in a subject or activity (good at maths, good at chess). 'Good in' is used only for a field or a role, e.g. 'good in health'. Rule: adjective + at + skill.",
+     "topic": "Preposition",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "number": 1
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank: The clerk was accused ____ accepting a bribe.",
+     "options": [
+      "with",
+      "for",
+      "of",
+      "at"
+     ],
+     "answer_index": 2,
+     "answer": "of",
+     "explanation": "The verb 'accuse' always takes 'of': accuse somebody of something. The trap is the parallel pattern 'charge somebody with', which tempts candidates into writing 'accused with'. Rule: accused of / charged with.",
+     "topic": "Preposition",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "number": 2
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the word nearest in meaning to OBSTINATE.",
+     "options": [
+      "Indifferent",
+      "Flexible",
+      "Stubborn",
+      "Generous"
+     ],
+     "answer_index": 2,
+     "answer": "Stubborn",
+     "explanation": "Obstinate = refusing to change one's opinion, i.e. stubborn. 'Flexible' and 'generous' are positive/neutral qualities, and 'indifferent' means unconcerned - none carries the idea of wilful refusal to change.",
+     "topic": "Synonym",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "number": 3
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the word most opposite in meaning to FRUGAL.",
+     "options": [
+      "Careful",
+      "Economical",
+      "Thrifty",
+      "Extravagant"
+     ],
+     "answer_index": 3,
+     "answer": "Extravagant",
+     "explanation": "Frugal means sparing with money. Its opposite must be wasteful - extravagant. Options (C) and (B) are synonyms of frugal, and (A) is a mild synonym, so they cannot be antonyms.",
+     "topic": "Antonym",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "number": 4
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Replace the underlined part with the correct idiom: The manager ____ to all our complaints and did nothing.",
+     "options": [
+      "turned his head",
+      "paid his ears",
+      "turned a deaf ear",
+      "made his ears"
+     ],
+     "answer_index": 2,
+     "answer": "turned a deaf ear",
+     "explanation": "'Turn a deaf ear to' means to deliberately refuse to listen. The other three are not English idioms - they are invented forms that simply repeat the idea of 'ear'.",
+     "topic": "Idiom",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "number": 5
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct phrasal verb: The cricket match was ____ because of heavy rain.",
+     "options": [
+      "called on",
+      "called up",
+      "called for",
+      "called off"
+     ],
+     "answer_index": 3,
+     "answer": "called off",
+     "explanation": "Call off = cancel. Call on = visit somebody; call for = demand/require; call up = telephone or summon. Only 'called off' fits the meaning 'cancelled'.",
+     "topic": "Phrasal verb",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "number": 6
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Change the voice: Who wrote this letter?",
+     "options": [
+      "Whom was this letter written by?",
+      "By whom was this letter written?",
+      "Who was this letter written?",
+      "By who was this letter written?"
+     ],
+     "answer_index": 1,
+     "answer": "By whom was this letter written?",
+     "explanation": "In a passive 'who' question, 'who' becomes 'by whom' and the auxiliary comes before the subject: By whom + was + this letter + written? Option (D) uses 'who' after a preposition, which is wrong; (C) drops 'by whom' entirely.",
+     "topic": "Voice",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "number": 7
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Change the voice: The teacher is explaining the lesson.",
+     "options": [
+      "The lesson has been explained by the teacher.",
+      "The lesson is being explained by the teacher.",
+      "The lesson was being explained by the teacher.",
+      "The lesson is explained by the teacher."
+     ],
+     "answer_index": 1,
+     "answer": "The lesson is being explained by the teacher.",
+     "explanation": "Present continuous active -> 'is/am/are + being + past participle'. 'Is explaining' therefore becomes 'is being explained'. Option (D) is simple present, (C) is past continuous, (A) is present perfect - each changes the tense.",
+     "topic": "Voice",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "number": 8
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Change into indirect speech: He said, \"I am busy now.\"",
+     "options": [
+      "He said that he had been busy then.",
+      "He said that he was busy then.",
+      "He said that he is busy now.",
+      "He told that he was busy now."
+     ],
+     "answer_index": 1,
+     "answer": "He said that he was busy then.",
+     "explanation": "When the reporting verb is in the past, present tense shifts to past ('am' -> 'was') and 'now' becomes 'then'. (C) keeps the present tense, (A) shifts one step too far, and (D) uses 'told' without an object.",
+     "topic": "Narration",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      1,
+      3
+     ],
+     "number": 9
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct article: He is ____ honest man.",
+     "options": [
+      "a",
+      "an",
+      "the",
+      "no article"
+     ],
+     "answer_index": 1,
+     "answer": "an",
+     "explanation": "The choice depends on sound, not spelling. 'Honest' begins with a vowel sound (the h is silent), so 'an' is required. Compare 'a hotel' (h pronounced) with 'an hour' (h silent).",
+     "topic": "Article",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "number": 10
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the correct verb: Neither of the two boys ____ present in the class today.",
+     "options": [
+      "are",
+      "have been",
+      "were",
+      "was"
+     ],
+     "answer_index": 3,
+     "answer": "was",
+     "explanation": "'Neither of' is singular: it means 'not one of the two'. So the verb must be singular - 'was'. The plural noun after 'of' does not control the verb; the subject is 'neither'.",
+     "topic": "Subject-verb agreement",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "number": 11
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct tense: My uncle ____ in this town since 2015.",
+     "options": [
+      "lived",
+      "lives",
+      "is living",
+      "has been living"
+     ],
+     "answer_index": 3,
+     "answer": "has been living",
+     "explanation": "'Since + point of time' signals the present perfect continuous when the action continues: has/have been + V-ing. 'Is living' and 'lives' ignore the 'since' clause; 'lived' would be complete past.",
+     "topic": "Tense",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "number": 12
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "One-word substitution: A person who loves mankind is called a",
+     "options": [
+      "philanthropist",
+      "philatelist",
+      "pedestrian",
+      "misanthrope"
+     ],
+     "answer_index": 0,
+     "answer": "philanthropist",
+     "explanation": "Philanthropist = lover of mankind (philos + anthropos). Philatelist = stamp collector; misanthrope = hater of mankind; pedestrian = walker. The prefix 'phil-' and suffix '-anthrope' carry the clue.",
+     "topic": "One-word substitution",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "number": 13
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "One-word substitution: A word having the opposite meaning of another word is called",
+     "options": [
+      "a homonym",
+      "an antonym",
+      "a synonym",
+      "an acronym"
+     ],
+     "answer_index": 1,
+     "answer": "an antonym",
+     "explanation": "Antonym = opposite meaning; synonym = same meaning; homonym = same sound/spelling, different meaning; acronym = word formed from initials. The prefix 'anti-' (against) gives it away.",
+     "topic": "One-word substitution",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      1,
+      3
+     ],
+     "number": 14
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct collective noun: A ____ of ships sailed into the harbour.",
+     "options": [
+      "fleet",
+      "flock",
+      "herd",
+      "swarm"
+     ],
+     "answer_index": 0,
+     "answer": "fleet",
+     "explanation": "Fleet is the collective noun for ships (also for vehicles of an airline). Flock is for birds or sheep, herd for cattle, swarm for bees or insects.",
+     "topic": "Collective noun",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "number": 15
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "The feminine gender of BACHELOR is",
+     "options": [
+      "bride",
+      "widow",
+      "madam",
+      "spinster"
+     ],
+     "answer_index": 3,
+     "answer": "spinster",
+     "explanation": "Bachelor (an unmarried man) pairs with spinster (an unmarried woman). Widow is the feminine of widower, bride of bridegroom, and madam of sir.",
+     "topic": "Gender",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "number": 16
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "In the sentence 'She sings beautifully', the word 'beautifully' is a/an",
+     "options": [
+      "adjective",
+      "adverb",
+      "noun",
+      "conjunction"
+     ],
+     "answer_index": 1,
+     "answer": "adverb",
+     "explanation": "'Beautifully' modifies the verb 'sings', telling us how she sings - that is the job of an adverb. An adjective would modify a noun, e.g. 'a beautiful song'.",
+     "topic": "Parts of speech",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "number": 17
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Identify the type of sentence: If it rains, we shall stay indoors.",
+     "options": [
+      "Complex",
+      "Exclamatory",
+      "Compound",
+      "Simple"
+     ],
+     "answer_index": 0,
+     "answer": "Complex",
+     "explanation": "The sentence has one main clause ('we shall stay indoors') and one dependent clause introduced by 'if' - that is a complex sentence. A compound sentence joins two independent clauses with and/but/or.",
+     "topic": "Sentence type",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "number": 18
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank: He is senior ____ me by two years.",
+     "options": [
+      "from",
+      "to",
+      "by",
+      "than"
+     ],
+     "answer_index": 1,
+     "answer": "to",
+     "explanation": "Latin comparatives senior, junior, superior, inferior, prior take 'to', not 'than'. This is a very common error in West Bengal PSC papers: 'senior to', not 'senior than'.",
+     "topic": "Preposition",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "number": 19
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the correctly spelt word.",
+     "options": [
+      "Millenium",
+      "Millennium",
+      "Milenium",
+      "Milennium"
+     ],
+     "answer_index": 1,
+     "answer": "Millennium",
+     "explanation": "Millennium has a double 'l' and a double 'n': m-i-l-l-e-n-n-i-u-m, from Latin 'mille' (thousand) + 'annus' (year). Nothing else in the options preserves both double letters.",
+     "topic": "Spelling",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "number": 20
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct word: The drought had a bad ____ on the crops.",
+     "options": [
+      "afflict",
+      "affect",
+      "effort",
+      "effect"
+     ],
+     "answer_index": 3,
+     "answer": "effect",
+     "explanation": "'Effect' is the noun (result); 'affect' is the verb (to influence). The sentence needs a noun after 'a bad', so 'effect' is correct. Test: if you can put 'the' before it, use effect.",
+     "topic": "Homophone",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "number": 21
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct conjunction: He is poor ____ honest.",
+     "options": [
+      "because",
+      "so",
+      "but",
+      "and"
+     ],
+     "answer_index": 2,
+     "answer": "but",
+     "explanation": "The two facts contrast with each other, so an adversative conjunction is needed - 'but'. 'And' would suggest both facts point the same way; 'because' and 'so' would wrongly claim a cause-effect relation.",
+     "topic": "Conjunction",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "number": 22
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct modal: You ____ obey the rules of the examination hall.",
+     "options": [
+      "may",
+      "can",
+      "might",
+      "must"
+     ],
+     "answer_index": 3,
+     "answer": "must",
+     "explanation": "'Must' expresses strong obligation, which fits the sense of a rule. 'May' and 'can' give permission, and 'might' suggests a weak possibility - none expresses compulsion.",
+     "topic": "Modal verb",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "number": 23
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Spot the error: One of my friend is a doctor.",
+     "options": [
+      "my should be mine",
+      "is should be are",
+      "The sentence is correct",
+      "friend should be friends"
+     ],
+     "answer_index": 3,
+     "answer": "friend should be friends",
+     "explanation": "The subject is 'One', which is singular, and takes a singular verb ('is' - already correct). But after 'one of + plural noun' the noun must be plural: one of my friends. Only the noun is wrong.",
+     "topic": "Error spotting",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "number": 24
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the word most opposite in meaning to TRANSPARENT.",
+     "options": [
+      "Opaque",
+      "Visible",
+      "Clear",
+      "Translucent"
+     ],
+     "answer_index": 0,
+     "answer": "Opaque",
+     "explanation": "Transparent = allowing light through so that objects behind can be seen clearly. Its true opposite is opaque (no light passes). 'Translucent' is a middle state, not the opposite, and 'clear'/'visible' are synonyms.",
+     "topic": "Antonym",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "number": 25
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the word nearest in meaning to CANDID.",
+     "options": [
+      "Cunning",
+      "Frank",
+      "Rude",
+      "Shy"
+     ],
+     "answer_index": 1,
+     "answer": "Frank",
+     "explanation": "Candid = openly honest and direct, i.e. frank. 'Cunning' and 'shy' are quite different; 'rude' is the trap, because a candid remark can offend, but candour itself means honesty, not bad manners.",
+     "topic": "Synonym",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "number": 26
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Read the italicised phrase and choose the correct meaning: The news of his transfer came as ____, because nobody had expected it.",
+     "options": [
+      "a bolt from the blue",
+      "a fish out of water",
+      "a snake in the grass",
+      "a bed of roses"
+     ],
+     "answer_index": 0,
+     "answer": "a bolt from the blue",
+     "explanation": "'A bolt from the blue' means a complete and unexpected shock, which matches 'nobody had expected it'. 'A bed of roses' means a comfortable situation; 'a fish out of water' means awkwardness; 'a snake in the grass' means a hidden enemy.",
+     "topic": "Idiom",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "number": 27
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Replace the underlined word with the correct phrasal verb: The meeting has been ____ to next Monday.",
+     "options": [
+      "put up",
+      "put out",
+      "put off",
+      "put on"
+     ],
+     "answer_index": 2,
+     "answer": "put off",
+     "explanation": "Put off = postpone. Put on = wear or switch on; put up = erect or accommodate; put out = extinguish. The sense 'moved to a later date' fixes 'put off'.",
+     "topic": "Phrasal verb",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "number": 28
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct form: This is the ____ book I have ever read.",
+     "options": [
+      "most best",
+      "best",
+      "good",
+      "better"
+     ],
+     "answer_index": 1,
+     "answer": "best",
+     "explanation": "The superlative 'best' is used with 'the' when one thing is compared with all others ('ever read'). 'Better' is comparative and needs only two things; 'most best' is a double superlative, which is grammatically wrong.",
+     "topic": "Degrees of comparison",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "number": 29
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "The plural form of CRISIS is",
+     "options": [
+      "crises",
+      "crisises",
+      "crisis",
+      "crisi"
+     ],
+     "answer_index": 0,
+     "answer": "crises",
+     "explanation": "Nouns ending in -is of Greek origin form the plural with -es: crisis -> crises, analysis -> analyses, thesis -> theses, axis -> axes. The ending is pronounced '-eez'.",
+     "topic": "Number",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "number": 30
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which district of West Bengal has the largest area under the Sundarbans mangrove forest?",
+     "options": [
+      "South 24 Parganas",
+      "Nadia",
+      "North 24 Parganas",
+      "Purba Medinipur"
+     ],
+     "answer_index": 0,
+     "answer": "South 24 Parganas",
+     "explanation": "The Indian Sundarbans lies in the delta of the Ganga-Brahmaputra and is shared by South 24 Parganas and North 24 Parganas, with the larger and more famous tiger reserve portion in South 24 Parganas.",
+     "topic": "WB Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "fact": "South 24 Parganas",
+     "source": "WBPSC Clerkship 2019-2023 pattern; NCERT Geography",
+     "number": 31
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which river is known as the 'Sorrow of Bengal'?",
+     "options": [
+      "Mahanadi",
+      "Damodar",
+      "Hooghly",
+      "Teesta"
+     ],
+     "answer_index": 1,
+     "answer": "Damodar",
+     "explanation": "The Damodar was called the Sorrow of Bengal because of its destructive annual floods before the Damodar Valley Corporation dams (1948 onwards) tamed it. The Kosi is the 'Sorrow of Bihar'; the Hooghly is a distributary, not a flood river.",
+     "topic": "WB Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "fact": "Damodar",
+     "source": "NCERT Geography; WB Board Class VIII",
+     "number": 32
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Farakka Barrage is built across which river?",
+     "options": [
+      "Brahmaputra",
+      "Damodar",
+      "Barakar",
+      "Ganga"
+     ],
+     "answer_index": 3,
+     "answer": "Ganga",
+     "explanation": "The Farakka Barrage, in Murshidabad district, diverts Ganga water into the Bhagirathi-Hooghly through a feeder canal to keep the Kolkata port navigable. It is one of the longest barrages in the world.",
+     "topic": "WB Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "fact": "Ganga",
+     "source": "NCERT Geography",
+     "number": 33
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Haldia port is situated in which district of West Bengal?",
+     "options": [
+      "Purba Medinipur",
+      "South 24 Parganas",
+      "Howrah",
+      "Paschim Medinipur"
+     ],
+     "answer_index": 0,
+     "answer": "Purba Medinipur",
+     "explanation": "Haldia, a riverine port on the Hooghly about 50 km downstream of Kolkata, lies in Purba Medinipur district. It was developed to relieve pressure on the silt-choked Kolkata port.",
+     "topic": "WB Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "fact": "Purba Medinipur",
+     "source": "WB District Gazetteers",
+     "number": 34
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The highest peak in West Bengal is",
+     "options": [
+      "Falut",
+      "Tiger Hill",
+      "Namchi",
+      "Sandakphu"
+     ],
+     "answer_index": 3,
+     "answer": "Sandakphu",
+     "explanation": "Sandakphu (3,636 m) on the Singalila ridge in Darjeeling district is the highest point in West Bengal. Tiger Hill is lower and famous only for its sunrise view; Namchi is in Sikkim.",
+     "topic": "WB Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "fact": "Sandakphu",
+     "source": "Survey of India; WB Tourism",
+     "number": 35
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The state animal of West Bengal is",
+     "options": [
+      "red panda",
+      "elephant",
+      "fishing cat",
+      "Royal Bengal tiger"
+     ],
+     "answer_index": 2,
+     "answer": "fishing cat",
+     "explanation": "West Bengal's state animal is the fishing cat (Prionailurus viverrinus), declared in 2012. The Royal Bengal tiger is the national animal of India, and the red panda is the state animal of Sikkim.",
+     "topic": "WB Static GK",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "fact": "fishing cat",
+     "source": "WB Forest Department",
+     "number": 36
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Battle of Plassey was fought in the year",
+     "options": [
+      "1764",
+      "1765",
+      "1757",
+      "1739"
+     ],
+     "answer_index": 2,
+     "answer": "1757",
+     "explanation": "Robert Clive defeated Siraj-ud-Daulah at Plassey (Palashi, Nadia district) on 23 June 1757 after Mir Jafar's betrayal. 1764 is Buxar, 1765 is the grant of Diwani, and 1739 is Nadir Shah's invasion.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      0,
+      3
+     ],
+     "fact": "1757",
+     "source": "NCERT Class VIII History, Ch. 2",
+     "number": 37
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Permanent Settlement of Bengal was introduced by",
+     "options": [
+      "Lord Wellesley",
+      "Warren Hastings",
+      "Lord Dalhousie",
+      "Lord Cornwallis"
+     ],
+     "answer_index": 3,
+     "answer": "Lord Cornwallis",
+     "explanation": "Cornwallis introduced the Permanent Settlement in 1793, fixing land revenue with zamindars permanently. Warren Hastings had experimented with the system earlier, but the settlement of 1793 is credited to Cornwallis.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "fact": "Cornwallis",
+     "source": "NCERT Class VIII History, Ch. 3",
+     "number": 38
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The partition of Bengal was announced in 1905 by",
+     "options": [
+      "Lord Ripon",
+      "Lord Minto",
+      "Lord Hardinge",
+      "Lord Curzon"
+     ],
+     "answer_index": 3,
+     "answer": "Lord Curzon",
+     "explanation": "Viceroy Lord Curzon partitioned Bengal on 16 October 1905, dividing it into East Bengal and Assam and West Bengal. The Swadeshi movement forced its annulment in 1911 under Hardinge.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "fact": "Curzon",
+     "source": "NCERT Class VIII History, Ch. 8",
+     "number": 39
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The founder of the Maurya dynasty was",
+     "options": [
+      "Bindusara",
+      "Chandragupta Maurya",
+      "Bimbisara",
+      "Ashoka"
+     ],
+     "answer_index": 1,
+     "answer": "Chandragupta Maurya",
+     "explanation": "Chandragupta Maurya (321 BCE) founded the empire with Chanakya's help, overthrowing the Nandas. Bindusara was his son, Ashoka his grandson, and Bimbisara belonged to the earlier Haryanka dynasty of Magadha.",
+     "topic": "Ancient History",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "fact": "Chandragupta Maurya",
+     "source": "NCERT Class VI History, Ch. 7",
+     "number": 40
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Ashoka fought the Kalinga war in",
+     "options": [
+      "261 BCE",
+      "298 BCE",
+      "185 BCE",
+      "321 BCE"
+     ],
+     "answer_index": 0,
+     "answer": "261 BCE",
+     "explanation": "The Kalinga war (261 BCE) is dated from Ashoka's 13th Rock Edict. Its bloodshed turned him to Buddhism. 321 BCE is the founding of the Maurya empire, 298 BCE Chandragupta's abdication, and 185 BCE the fall of the Mauryas.",
+     "topic": "Ancient History",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "fact": "261 BCE",
+     "source": "NCERT Class VI History, Ch. 7",
+     "number": 41
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The first session of the Indian National Congress was held in 1885 at",
+     "options": [
+      "Calcutta",
+      "Poona",
+      "Madras",
+      "Bombay"
+     ],
+     "answer_index": 3,
+     "answer": "Bombay",
+     "explanation": "The first session was held at Gokuldas Tejpal Sanskrit College, Bombay, in December 1885, with W. C. Bonnerjee as president and A. O. Hume as the moving spirit.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "fact": "Bombay",
+     "source": "NCERT Class VIII History, Ch. 9",
+     "number": 42
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Tropic of Cancer passes through how many Indian states?",
+     "options": [
+      "nine",
+      "seven",
+      "eight",
+      "six"
+     ],
+     "answer_index": 2,
+     "answer": "eight",
+     "explanation": "The Tropic of Cancer (23.5 deg N) crosses eight states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram. Keep the list in mind - it is asked both forwards and backwards.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "fact": "eight",
+     "source": "NCERT Class IX Geography, Ch. 1",
+     "number": 43
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The longest river of India is",
+     "options": [
+      "Ganga",
+      "Godavari",
+      "Narmada",
+      "Brahmaputra"
+     ],
+     "answer_index": 0,
+     "answer": "Ganga",
+     "explanation": "The Ganga (about 2,525 km within India) is the longest river flowing wholly in Indian territory. The Godavari is the longest peninsular river and the Brahmaputra the largest by volume.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "fact": "Ganga",
+     "source": "NCERT Class IX Geography, Ch. 3",
+     "number": 44
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The highest peak of the Nilgiri hills is",
+     "options": [
+      "Anamudi",
+      "Kalsubai",
+      "Mahendragiri",
+      "Doddabetta"
+     ],
+     "answer_index": 3,
+     "answer": "Doddabetta",
+     "explanation": "Doddabetta (2,637 m) is the highest point of the Nilgiris. Anamudi is the highest peak of the Western Ghats (in Kerala), Mahendragiri is in the Eastern Ghats, and Kalsubai is the highest peak of Maharashtra.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "fact": "Doddabetta",
+     "source": "NCERT Class IX Geography",
+     "number": 45
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Black soil, the most suitable for cotton cultivation, is also known as",
+     "options": [
+      "laterite soil",
+      "red soil",
+      "regur soil",
+      "alluvial soil"
+     ],
+     "answer_index": 2,
+     "answer": "regur soil",
+     "explanation": "Black soil, formed from decomposed basalt lava on the Deccan plateau, is called regur or black-cotton soil for its moisture-retaining, self-ploughing character.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "fact": "regur",
+     "source": "NCERT Class X Geography, Ch. 1",
+     "number": 46
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The idea of Fundamental Rights in the Indian Constitution is borrowed from the Constitution of",
+     "options": [
+      "the United States",
+      "Ireland",
+      "the United Kingdom",
+      "Canada"
+     ],
+     "answer_index": 0,
+     "answer": "the United States",
+     "explanation": "Fundamental Rights come from the American Bill of Rights. From the UK we took parliamentary government, from Ireland the Directive Principles, and from Canada the federal scheme with a strong centre.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "fact": "United States",
+     "source": "M. Laxmikanth, Indian Polity",
+     "number": 47
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Article 21 of the Indian Constitution deals with",
+     "options": [
+      "right against exploitation",
+      "protection of life and personal liberty",
+      "right to equality before law",
+      "right to freedom of religion"
+     ],
+     "answer_index": 1,
+     "answer": "protection of life and personal liberty",
+     "explanation": "Article 21: no person shall be deprived of life or personal liberty except according to procedure established by law. Article 14 covers equality, Articles 23-24 exploitation, and Articles 25-28 religion.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      1,
+      3
+     ],
+     "fact": "life and personal liberty",
+     "source": "Constitution of India, Part III",
+     "number": 48
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The President of India is elected by",
+     "options": [
+      "a direct vote of all citizens",
+      "the members of the Lok Sabha only",
+      "the Council of Ministers",
+      "an electoral college of elected MPs and MLAs"
+     ],
+     "answer_index": 3,
+     "answer": "an electoral college of elected MPs and MLAs",
+     "explanation": "Under Article 54, the President is elected indirectly by an electoral college of the elected members of both Houses of Parliament and of the Legislative Assemblies of the states and Union territories with legislatures, by proportional representation with single transferable vote.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "fact": "electoral college",
+     "source": "Constitution of India, Article 54",
+     "number": 49
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The 73rd Constitutional Amendment is related to",
+     "options": [
+      "Panchayati Raj",
+      "GST",
+      "Anti-defection",
+      "Urban local bodies"
+     ],
+     "answer_index": 0,
+     "answer": "Panchayati Raj",
+     "explanation": "The 73rd Amendment (1992) gave constitutional status to the three-tier Panchayati Raj system and added Part IX and the Eleventh Schedule. The 74th Amendment deals with urban local bodies.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "fact": "Panchayati Raj",
+     "source": "Constitution of India, Part IX",
+     "number": 50
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "A Money Bill can be introduced only in",
+     "options": [
+      "Rajya Sabha",
+      "a joint sitting",
+      "either House",
+      "Lok Sabha"
+     ],
+     "answer_index": 3,
+     "answer": "Lok Sabha",
+     "explanation": "Under Article 110, a Money Bill can be introduced only in the Lok Sabha and only on the recommendation of the President. The Rajya Sabha may make recommendations within 14 days, but cannot amend or reject it.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "fact": "Lok Sabha",
+     "source": "Constitution of India, Article 110",
+     "number": 51
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Governor of a state is appointed by the",
+     "options": [
+      "Chief Justice of India",
+      "Prime Minister",
+      "President",
+      "state legislature"
+     ],
+     "answer_index": 2,
+     "answer": "President",
+     "explanation": "Article 155: the Governor is appointed by the President by warrant under his hand and seal, and holds office during the pleasure of the President. He is the constitutional head of the state, not of the judiciary.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "fact": "President",
+     "source": "Constitution of India, Article 155",
+     "number": 52
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The SI unit of force is",
+     "options": [
+      "watt",
+      "newton",
+      "joule",
+      "pascal"
+     ],
+     "answer_index": 1,
+     "answer": "newton",
+     "explanation": "Force = mass x acceleration, so its unit is kg m/s^2, named the newton (N) after Isaac Newton. Joule is energy, pascal is pressure and watt is power.",
+     "topic": "Physics",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "fact": "newton",
+     "source": "NCERT Class IX Science, Ch. 9",
+     "number": 53
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Deficiency of Vitamin C causes",
+     "options": [
+      "night blindness",
+      "beri-beri",
+      "scurvy",
+      "rickets"
+     ],
+     "answer_index": 2,
+     "answer": "scurvy",
+     "explanation": "Vitamin C (ascorbic acid) deficiency causes scurvy - bleeding gums and slow wound healing. Rickets is from Vitamin D, beri-beri from Vitamin B1, and night blindness from Vitamin A.",
+     "topic": "Biology",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "fact": "scurvy",
+     "source": "NCERT Class X Science, Ch. 6",
+     "number": 54
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The largest gland in the human body is the",
+     "options": [
+      "liver",
+      "pituitary",
+      "pancreas",
+      "thyroid"
+     ],
+     "answer_index": 0,
+     "answer": "liver",
+     "explanation": "The liver is the largest gland and the largest internal organ; it secretes bile and performs detoxification. The pancreas is a mixed gland, the thyroid is endocrine only, and the pituitary the smallest master gland.",
+     "topic": "Biology",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "fact": "liver",
+     "source": "NCERT Class X Science, Ch. 6",
+     "number": 55
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which gas is absorbed by green plants during photosynthesis?",
+     "options": [
+      "oxygen",
+      "nitrogen",
+      "hydrogen",
+      "carbon dioxide"
+     ],
+     "answer_index": 3,
+     "answer": "carbon dioxide",
+     "explanation": "Photosynthesis uses carbon dioxide and water in the presence of chlorophyll and sunlight to make glucose, releasing oxygen. Nitrogen is fixed by bacteria, not by photosynthesis.",
+     "topic": "Biology",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "fact": "carbon dioxide",
+     "source": "NCERT Class X Science, Ch. 6",
+     "number": 56
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The instrument used to record earthquakes is a",
+     "options": [
+      "seismograph",
+      "barograph",
+      "anemometer",
+      "hygrometer"
+     ],
+     "answer_index": 0,
+     "answer": "seismograph",
+     "explanation": "A seismograph records the intensity and duration of tremors. A barograph records pressure, a hygrometer humidity and an anemometer wind speed.",
+     "topic": "Science",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "fact": "seismograph",
+     "source": "NCERT Class VIII Science",
+     "number": 57
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "NITI Aayog replaced which body in 2015?",
+     "options": [
+      "Election Commission",
+      "Planning Commission",
+      "National Development Council",
+      "Finance Commission"
+     ],
+     "answer_index": 1,
+     "answer": "Planning Commission",
+     "explanation": "NITI Aayog (National Institution for Transforming India) was set up on 1 January 2015, replacing the Planning Commission of 1950. The Finance Commission and Election Commission are constitutional bodies and continue.",
+     "topic": "Economy",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "fact": "Planning Commission",
+     "source": "NITI Aayog Annual Report",
+     "number": 58
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Reserve Bank of India was established in",
+     "options": [
+      "1947",
+      "1935",
+      "1949",
+      "1955"
+     ],
+     "answer_index": 1,
+     "answer": "1935",
+     "explanation": "The RBI was set up on 1 April 1935 under the RBI Act, 1934, and nationalised on 1 January 1949. 1947 is Independence, and 1955 is the nationalisation of the Imperial Bank into SBI.",
+     "topic": "Economy",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "fact": "1935",
+     "source": "RBI Act, 1934",
+     "number": 59
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Goods and Services Tax (GST) came into force in India on",
+     "options": [
+      "1 July 2017",
+      "15 August 2017",
+      "1 July 2016",
+      "1 April 2017"
+     ],
+     "answer_index": 0,
+     "answer": "1 July 2017",
+     "explanation": "GST was rolled out at midnight on 1 July 2017 after the 101st Constitutional Amendment. The GST Council, chaired by the Union Finance Minister, governs its rates.",
+     "topic": "Economy",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "fact": "1 July 2017",
+     "source": "GST Council records",
+     "number": 60
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which country won the ICC Men's T20 World Cup 2026?",
+     "options": [
+      "Australia",
+      "New Zealand",
+      "India",
+      "South Africa"
+     ],
+     "answer_index": 2,
+     "answer": "India",
+     "explanation": "India beat New Zealand by 96 runs in the final at the Narendra Modi Stadium, Ahmedabad, on 8 March 2026 - their third T20 World Cup title. The tournament was co-hosted by India and Sri Lanka.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "fact": "India",
+     "source": "ICC / media reports, March 2026 (co-hosts India and Sri Lanka; final 8.3.2026)",
+     "number": 61
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The FIFA World Cup 2026 was won by",
+     "options": [
+      "Brazil",
+      "Spain",
+      "Argentina",
+      "France"
+     ],
+     "answer_index": 1,
+     "answer": "Spain",
+     "explanation": "Spain beat Argentina 1-0 in extra time in the final at MetLife Stadium, New Jersey, on 19 July 2026. It was Spain's second men's World Cup title after 2010; the tournament was hosted by the USA, Canada and Mexico.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "fact": "Spain",
+     "source": "NPR / NBC reports, 19-20 July 2026",
+     "number": 62
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The 2026 Winter Olympics were held in",
+     "options": [
+      "Pyeongchang",
+      "Sapporo",
+      "Beijing",
+      "Milan and Cortina d'Ampezzo"
+     ],
+     "answer_index": 3,
+     "answer": "Milan and Cortina d'Ampezzo",
+     "explanation": "The 25th Winter Olympics were held in Milan and Cortina d'Ampezzo, Italy, from 6 to 22 February 2026, with the closing ceremony at the Verona Arena. Norway topped the medal table with 18 golds.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      1,
+      0
+     ],
+     "fact": "Milan and Cortina",
+     "source": "IOC / media reports, February 2026",
+     "number": 63
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Commonwealth Games 2026 were hosted by",
+     "options": [
+      "Glasgow",
+      "Durban",
+      "Birmingham",
+      "Melbourne"
+     ],
+     "answer_index": 0,
+     "answer": "Glasgow",
+     "explanation": "Glasgow stepped in to host the 2026 Commonwealth Games, which concluded on 2 August 2026. India finished fourth with 39 medals (13 gold, 17 silver, 9 bronze); Australia topped the table.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "fact": "Glasgow",
+     "source": "CGF / media reports, August 2026",
+     "number": 64
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Who took oath as the Chief Minister of West Bengal in May 2026?",
+     "options": [
+      "Mamata Banerjee",
+      "Suvendu Adhikari",
+      "Dilip Ghosh",
+      "Sovandeb Chattopadhyay"
+     ],
+     "answer_index": 1,
+     "answer": "Suvendu Adhikari",
+     "explanation": "Suvendu Adhikari was sworn in on 9 May 2026 as the 9th Chief Minister of West Bengal and the first from the BJP, after the 2026 assembly election ended 15 years of Trinamool Congress rule.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "fact": "Suvendu Adhikari",
+     "source": "News reports, 8-9 May 2026",
+     "number": 65
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Who is the Vice-President of India at present?",
+     "options": [
+      "Jagdeep Dhankhar",
+      "Hamid Ansari",
+      "C. P. Radhakrishnan",
+      "M. Venkaiah Naidu"
+     ],
+     "answer_index": 2,
+     "answer": "C. P. Radhakrishnan",
+     "explanation": "C. P. Radhakrishnan assumed office as the 15th Vice-President of India and ex-officio Chairman of the Rajya Sabha on 12 September 2025, after the resignation of Jagdeep Dhankhar.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "fact": "C. P. Radhakrishnan",
+     "source": "Vice-President's Secretariat; '2026 in India'",
+     "number": 66
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Who is the present Chief Justice of India?",
+     "options": [
+      "Sanjiv Khanna",
+      "Surya Kant",
+      "D. Y. Chandrachud",
+      "N. V. Ramana"
+     ],
+     "answer_index": 1,
+     "answer": "Surya Kant",
+     "explanation": "Justice Surya Kant took oath as the 53rd Chief Justice of India on 24 November 2025, succeeding Justice B. R. Gavai. D. Y. Chandrachud was the 50th CJI and Sanjiv Khanna the 51st.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      1,
+      3
+     ],
+     "fact": "Surya Kant",
+     "source": "Supreme Court of India; '2026 in India'",
+     "number": 67
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Who is the Governor of the Reserve Bank of India?",
+     "options": [
+      "Raghuram Rajan",
+      "Urjit Patel",
+      "Shaktikanta Das",
+      "Sanjay Malhotra"
+     ],
+     "answer_index": 3,
+     "answer": "Sanjay Malhotra",
+     "explanation": "Sanjay Malhotra became the 26th Governor of the RBI on 11 December 2024, succeeding Shaktikanta Das. The RBI Governor is appointed by the Central Government under the RBI Act, 1934.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fact": "Sanjay Malhotra",
+     "source": "RBI; '2026 in India'",
+     "number": 68
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The present Chairman of ISRO is",
+     "options": [
+      "A. S. Kiran Kumar",
+      "S. Somanath",
+      "V. Narayanan",
+      "K. Sivan"
+     ],
+     "answer_index": 2,
+     "answer": "V. Narayanan",
+     "explanation": "Dr V. Narayanan took charge as Chairman, ISRO and Secretary, Department of Space in January 2025, succeeding S. Somanath. ISRO is headquartered at Bengaluru.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "fact": "V. Narayanan",
+     "source": "ISRO; '2026 in India'",
+     "number": 69
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Gaganyaan, India's first human spaceflight programme, is designed to carry how many astronauts?",
+     "options": [
+      "one",
+      "two",
+      "three",
+      "four"
+     ],
+     "answer_index": 2,
+     "answer": "three",
+     "explanation": "Gaganyaan will send three astronauts (Gaganyatris) into low earth orbit for up to three days. The first uncrewed orbital test flight (G1) is targeted for the second half of 2026, ahead of the crewed mission.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "fact": "three",
+     "source": "ISRO Gaganyaan programme brief",
+     "number": 70
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "What is the value of 40% of 250 + 25% of 320?",
+     "options": [
+      "180",
+      "170",
+      "200",
+      "190"
+     ],
+     "answer_index": 0,
+     "answer": "180",
+     "explanation": "Step 1: 40% of 250 = 0.40 x 250 = 100. Step 2: 25% of 320 = 0.25 x 320 = 80. Step 3: 100 + 80 = 180.",
+     "topic": "Percentage",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "check": "0.40*250 + 0.25*320",
+     "number": 71
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A shopkeeper buys an article for Rs 400 and sells it for Rs 460. His profit percentage is",
+     "options": [
+      "15%",
+      "16%",
+      "12%",
+      "13%"
+     ],
+     "answer_index": 0,
+     "answer": "15%",
+     "explanation": "Step 1: Profit = SP - CP = 460 - 400 = 60. Step 2: Profit % = (Profit / CP) x 100 = (60/400) x 100 = 15%. Note the base is the cost price, never the selling price.",
+     "topic": "Profit and loss",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "check": "100*(460-400)/400",
+     "number": 72
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The simple interest on Rs 8,000 at 7.5% per annum for 3 years is",
+     "options": [
+      "Rs 1,750",
+      "Rs 1,600",
+      "Rs 2,000",
+      "Rs 1,800"
+     ],
+     "answer_index": 3,
+     "answer": "Rs 1,800",
+     "explanation": "Step 1: SI = (P x R x T)/100. Step 2: = (8000 x 7.5 x 3)/100. Step 3: 8000 x 7.5 = 60,000; x 3 = 1,80,000; /100 = Rs 1,800.",
+     "topic": "Simple interest",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "check": "8000*7.5*3/100",
+     "number": 73
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The compound interest on Rs 10,000 at 10% per annum for 2 years, compounded annually, is",
+     "options": [
+      "Rs 2,200",
+      "Rs 1,900",
+      "Rs 2,000",
+      "Rs 2,100"
+     ],
+     "answer_index": 3,
+     "answer": "Rs 2,100",
+     "explanation": "Step 1: A = P(1 + r/100)^t = 10000 x (1.1)^2. Step 2: (1.1)^2 = 1.21, so A = Rs 12,100. Step 3: CI = A - P = 12100 - 10000 = Rs 2,100. (SI would have been 2,000; the extra 100 is interest on the first year's interest.)",
+     "topic": "Compound interest",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      1,
+      0
+     ],
+     "check": "10000*1.1**2 - 10000",
+     "number": 74
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "Two numbers are in the ratio 3 : 4 and their sum is 84. The larger number is",
+     "options": [
+      "56",
+      "48",
+      "36",
+      "44"
+     ],
+     "answer_index": 1,
+     "answer": "48",
+     "explanation": "Step 1: Let the numbers be 3x and 4x. Step 2: 3x + 4x = 7x = 84, so x = 12. Step 3: The larger number is 4x = 48 (the smaller is 36).",
+     "topic": "Ratio",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "check": "4*84/7",
+     "number": 75
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The average of five numbers is 26. When one number is removed, the average of the remaining four becomes 25. The number removed is",
+     "options": [
+      "30",
+      "32",
+      "26",
+      "28"
+     ],
+     "answer_index": 0,
+     "answer": "30",
+     "explanation": "Step 1: Sum of five numbers = 5 x 26 = 130. Step 2: Sum of the four remaining = 4 x 25 = 100. Step 3: Removed number = 130 - 100 = 30.",
+     "topic": "Average",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "check": "5*26 - 4*25",
+     "number": 76
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A can do a piece of work in 12 days and B in 18 days. Working together, they will complete it in",
+     "options": [
+      "6 3/5 days",
+      "8 days",
+      "7 1/2 days",
+      "7 1/5 days"
+     ],
+     "answer_index": 3,
+     "answer": "7 1/5 days",
+     "explanation": "Step 1: A's one-day work = 1/12, B's = 1/18. Step 2: Together = 1/12 + 1/18 = (3 + 2)/36 = 5/36. Step 3: Time = 36/5 = 7 1/5 days (7.2 days).",
+     "topic": "Time and work",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      1,
+      0
+     ],
+     "check": "1/(1/12+1/18)",
+     "number": 77
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "One pipe can fill a tank in 6 hours and another can empty it in 9 hours. If both are opened together, the tank will be full in",
+     "options": [
+      "12 hours",
+      "20 hours",
+      "15 hours",
+      "18 hours"
+     ],
+     "answer_index": 3,
+     "answer": "18 hours",
+     "explanation": "Step 1: Filling rate = 1/6 per hour, emptying rate = 1/9 per hour. Step 2: Net rate = 1/6 - 1/9 = (3 - 2)/18 = 1/18. Step 3: Time = 18 hours.",
+     "topic": "Pipes and cisterns",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      1,
+      0
+     ],
+     "check": "1/(1/6-1/9)",
+     "number": 78
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A speed of 72 km per hour equals",
+     "options": [
+      "24 m per second",
+      "18 m per second",
+      "15 m per second",
+      "20 m per second"
+     ],
+     "answer_index": 3,
+     "answer": "20 m per second",
+     "explanation": "Step 1: To convert km/h to m/s multiply by 5/18. Step 2: 72 x 5/18 = 4 x 5 = 20. Step 3: So the speed is 20 m per second. (Reverse: m/s x 18/5 = km/h.)",
+     "topic": "Speed conversion",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "check": "72*5/18",
+     "number": 79
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A train 150 m long is running at 54 km/h. The time it takes to cross a platform 300 m long is",
+     "options": [
+      "36 seconds",
+      "30 seconds",
+      "20 seconds",
+      "24 seconds"
+     ],
+     "answer_index": 1,
+     "answer": "30 seconds",
+     "explanation": "Step 1: Speed = 54 x 5/18 = 15 m/s. Step 2: Total distance = train + platform = 150 + 300 = 450 m. Step 3: Time = 450/15 = 30 seconds.",
+     "topic": "Trains",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "check": "(150+300)/(54*5/18)",
+     "number": 80
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A boat's speed in still water is 9 km/h and the speed of the stream is 3 km/h. The total time to go 36 km downstream and return 36 km upstream is",
+     "options": [
+      "8 hours",
+      "9 hours",
+      "10 hours",
+      "12 hours"
+     ],
+     "answer_index": 1,
+     "answer": "9 hours",
+     "explanation": "Step 1: Downstream speed = 9 + 3 = 12 km/h; upstream = 9 - 3 = 6 km/h. Step 2: Time downstream = 36/12 = 3 h; upstream = 36/6 = 6 h. Step 3: Total = 3 + 6 = 9 hours.",
+     "topic": "Boats and streams",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "check": "36/(9+3) + 36/(9-3)",
+     "number": 81
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A 40-litre mixture contains milk and water in the ratio 3 : 1. If 8 litres of water is added, the new ratio of milk to water is",
+     "options": [
+      "4 : 3",
+      "3 : 2",
+      "2 : 1",
+      "5 : 3"
+     ],
+     "answer_index": 3,
+     "answer": "5 : 3",
+     "explanation": "Step 1: Milk = 3/4 x 40 = 30 L; water = 1/4 x 40 = 10 L. Step 2: Adding water does not change milk, so water becomes 10 + 8 = 18 L. Step 3: Ratio = 30 : 18 = 5 : 3.",
+     "topic": "Mixture",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "check": "30/18",
+     "number": 82
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The HCF of two numbers is 6 and their LCM is 72. If one number is 24, the other is",
+     "options": [
+      "12",
+      "16",
+      "18",
+      "36"
+     ],
+     "answer_index": 2,
+     "answer": "18",
+     "explanation": "Step 1: For two numbers, HCF x LCM = product of the numbers. Step 2: 6 x 72 = 24 x x, so x = 432/24. Step 3: x = 18. Check: HCF(24, 18) = 6 and LCM = 72.",
+     "topic": "HCF and LCM",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "check": "6*72/24",
+     "number": 83
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "3/5 of a number is 72. What is 7/8 of that number?",
+     "options": [
+      "105",
+      "84",
+      "112",
+      "96"
+     ],
+     "answer_index": 0,
+     "answer": "105",
+     "explanation": "Step 1: Let the number be x; (3/5)x = 72, so x = 72 x 5/3 = 120. Step 2: (7/8) x 120 = 7 x 15 = 105.",
+     "topic": "Fractions",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "check": "(72*5/3)*7/8",
+     "number": 84
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "Five years ago a father was three times as old as his son. If the father is 47 now, the son's present age is",
+     "options": [
+      "17 years",
+      "21 years",
+      "19 years",
+      "18 years"
+     ],
+     "answer_index": 2,
+     "answer": "19 years",
+     "explanation": "Step 1: Five years ago the father was 47 - 5 = 42. Step 2: 42 = 3 x (son's age then), so the son was 14. Step 3: Present age = 14 + 5 = 19 years.",
+     "topic": "Ages",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "check": "(47-5)/3 + 5",
+     "number": 85
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The angle between the hands of a clock at 3:30 is",
+     "options": [
+      "70 degrees",
+      "90 degrees",
+      "85 degrees",
+      "75 degrees"
+     ],
+     "answer_index": 3,
+     "answer": "75 degrees",
+     "explanation": "Step 1: Hour hand moves 0.5 degree per minute, minute hand 6 degrees per minute. Step 2: At 3:30 the hour hand is at 3 x 30 + 30 x 0.5 = 105 deg; the minute hand is at 30 x 6 = 180 deg. Step 3: Difference = 75 degrees.",
+     "topic": "Clocks",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "check": "abs(180 - (3*30 + 30*0.5))",
+     "number": 86
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "If today is Monday, what day of the week will it be after 100 days?",
+     "options": [
+      "Friday",
+      "Thursday",
+      "Tuesday",
+      "Wednesday"
+     ],
+     "answer_index": 3,
+     "answer": "Wednesday",
+     "explanation": "Step 1: Every 7 days the day repeats, so divide 100 by 7: 100 = 14 x 7 + 2. Step 2: The remainder 2 is all that matters: Monday + 2 days. Step 3: Wednesday.",
+     "topic": "Calendar",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "check": "fact:Wednesday",
+     "number": 87
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The perimeter of a rectangle is 60 m and its length is 18 m. Its area is",
+     "options": [
+      "180 sq m",
+      "240 sq m",
+      "216 sq m",
+      "198 sq m"
+     ],
+     "answer_index": 2,
+     "answer": "216 sq m",
+     "explanation": "Step 1: 2(l + b) = 60, so l + b = 30. Step 2: b = 30 - 18 = 12 m. Step 3: Area = l x b = 18 x 12 = 216 sq m.",
+     "topic": "Area",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "check": "18*(60/2-18)",
+     "number": 88
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "Simplify: 2/3 + 3/4 - 5/6",
+     "options": [
+      "3/4",
+      "7/12",
+      "5/12",
+      "1/2"
+     ],
+     "answer_index": 1,
+     "answer": "7/12",
+     "explanation": "Step 1: LCM of 3, 4 and 6 is 12. Step 2: 2/3 = 8/12, 3/4 = 9/12, 5/6 = 10/12. Step 3: (8 + 9 - 10)/12 = 7/12.",
+     "topic": "Simplification",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "check": "2/3+3/4-5/6",
+     "number": 89
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The largest 3-digit number exactly divisible by 8 is",
+     "options": [
+      "996",
+      "992",
+      "990",
+      "984"
+     ],
+     "answer_index": 1,
+     "answer": "992",
+     "explanation": "Step 1: The largest 3-digit number is 999. Step 2: Divide 999 by 8: 8 x 124 = 992, remainder 7. Step 3: Subtract the remainder: 999 - 7 = 992.",
+     "topic": "Divisibility",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "check": "999 - (999%8)",
+     "number": 90
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A town's population is 100. It increases by 10% in the first year and then decreases by 10% in the second year. The population at the end of the second year is",
+     "options": [
+      "100",
+      "99",
+      "101",
+      "98"
+     ],
+     "answer_index": 1,
+     "answer": "99",
+     "explanation": "Step 1: After a 10% rise: 100 x 1.10 = 110. Step 2: After a 10% fall: 110 x 0.90 = 99. Step 3: The net effect is a 1% fall, not zero, because the second percentage is taken on the larger figure. Shortcut: a + b + ab/100 = 10 - 10 - 1 = -1%.",
+     "topic": "Percentage",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "check": "100*1.1*0.9",
+     "number": 91
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The marked price of an article is Rs 750. After a 20% discount it is sold at a profit of 25%. The cost price is",
+     "options": [
+      "Rs 480",
+      "Rs 450",
+      "Rs 500",
+      "Rs 520"
+     ],
+     "answer_index": 0,
+     "answer": "Rs 480",
+     "explanation": "Step 1: Selling price = 750 x (1 - 0.20) = 750 x 0.8 = Rs 600. Step 2: SP = CP x 1.25, so CP = 600/1.25. Step 3: CP = Rs 480.",
+     "topic": "Discount",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "check": "750*0.8/1.25",
+     "number": 92
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A invests Rs 5,000 for 12 months and B invests Rs 8,000 for 6 months in a business. In a profit of Rs 7,200, A's share is",
+     "options": [
+      "Rs 4,500",
+      "Rs 4,000",
+      "Rs 3,600",
+      "Rs 3,200"
+     ],
+     "answer_index": 1,
+     "answer": "Rs 4,000",
+     "explanation": "Step 1: Profit shares are proportional to capital x time. Step 2: A = 5000 x 12 = 60,000; B = 8000 x 6 = 48,000; ratio = 5 : 4. Step 3: A's share = 7200 x 5/9 = Rs 4,000.",
+     "topic": "Partnership",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "check": "7200*5000*12/(5000*12+8000*6)",
+     "number": 93
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "If 15 men can complete a work in 12 days, how long will 20 men take (working at the same rate)?",
+     "options": [
+      "10 days",
+      "8 days",
+      "11 days",
+      "9 days"
+     ],
+     "answer_index": 3,
+     "answer": "9 days",
+     "explanation": "Step 1: Work = men x days = 15 x 12 = 180 man-days. Step 2: With 20 men, days = 180/20. Step 3: 9 days. (More men, less time - inverse proportion.)",
+     "topic": "Time and work",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "check": "15*12/20",
+     "number": 94
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "45 is what per cent of 180?",
+     "options": [
+      "30%",
+      "40%",
+      "20%",
+      "25%"
+     ],
+     "answer_index": 3,
+     "answer": "25%",
+     "explanation": "Step 1: Percentage = (part / whole) x 100. Step 2: = (45/180) x 100. Step 3: 45/180 = 1/4, so the answer is 25%.",
+     "topic": "Percentage",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      1,
+      0
+     ],
+     "check": "100*45/180",
+     "number": 95
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "At what rate of simple interest will a sum of money double itself in 8 years?",
+     "options": [
+      "15% per annum",
+      "10% per annum",
+      "12.5% per annum",
+      "8% per annum"
+     ],
+     "answer_index": 2,
+     "answer": "12.5% per annum",
+     "explanation": "Step 1: Doubling means interest = principal, i.e. SI = P. Step 2: P = P x R x 8/100, so R x 8 = 100. Step 3: R = 12.5% per annum.",
+     "topic": "Simple interest",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "check": "100/8",
+     "number": 96
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A can finish 1/3 of a work in 5 days and B can finish 1/4 of it in 6 days. Working together they will finish the work in",
+     "options": [
+      "9 3/13 days",
+      "10 days",
+      "8 5/13 days",
+      "9 days"
+     ],
+     "answer_index": 0,
+     "answer": "9 3/13 days",
+     "explanation": "Step 1: A finishes the whole work in 5 x 3 = 15 days; B in 6 x 4 = 24 days. Step 2: Together one day = 1/15 + 1/24 = (8 + 5)/120 = 13/120. Step 3: Time = 120/13 = 9 3/13 days.",
+     "topic": "Time and work",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "check": "1/(1/15+1/24)",
+     "number": 97
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The average of the first 20 natural numbers is",
+     "options": [
+      "10.5",
+      "11",
+      "10",
+      "9.5"
+     ],
+     "answer_index": 0,
+     "answer": "10.5",
+     "explanation": "Step 1: Sum = n(n + 1)/2 = 20 x 21/2 = 210. Step 2: Average = 210/20. Step 3: 10.5. Shortcut: average of the first n natural numbers = (n + 1)/2 = 21/2 = 10.5.",
+     "topic": "Average",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "check": "(20+1)/2",
+     "number": 98
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A trader sells 20 articles at the cost price of 25 articles. His profit percentage is",
+     "options": [
+      "25%",
+      "20%",
+      "30%",
+      "15%"
+     ],
+     "answer_index": 0,
+     "answer": "25%",
+     "explanation": "Step 1: Let CP of one article be Re 1, so CP of 20 = Rs 20 and SP of 20 = Rs 25. Step 2: Profit = 25 - 20 = Rs 5. Step 3: Profit % = 5/20 x 100 = 25%.",
+     "topic": "Profit and loss",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "check": "100*(25-20)/20",
+     "number": 99
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A car covers 240 km in 4 hours and the next 180 km in 2 hours. Its average speed for the whole journey is",
+     "options": [
+      "75 km/h",
+      "65 km/h",
+      "70 km/h",
+      "72 km/h"
+     ],
+     "answer_index": 2,
+     "answer": "70 km/h",
+     "explanation": "Step 1: Total distance = 240 + 180 = 420 km. Step 2: Total time = 4 + 2 = 6 h. Step 3: Average speed = 420/6 = 70 km/h. Never average the two speeds (60 and 90) - that gives a wrong 75.",
+     "topic": "Speed and distance",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "check": "(240+180)/(4+2)",
+     "number": 100
+    }
+   ]
+  },
+  {
+   "name": "Paper 2",
+   "source": "data_paper2.py",
+   "items": [
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct preposition: He is married ____ my cousin.",
+     "options": [
+      "to",
+      "with",
+      "for",
+      "by"
+     ],
+     "answer_index": 0,
+     "answer": "to",
+     "explanation": "'Marry' and 'married' take 'to' when a person follows: married to my cousin. 'With' is the common Indian-English error. Note the verb form: she married him (no preposition), but she is married to him.",
+     "topic": "Preposition",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "number": 1
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct preposition: The bus is bound ____ Siliguri.",
+     "options": [
+      "for",
+      "to",
+      "at",
+      "in"
+     ],
+     "answer_index": 0,
+     "answer": "for",
+     "explanation": "'Bound for' means travelling towards a place: bound for Siliguri / bound for Kolkata. 'Bound to' means certain or obliged ('bound to happen'), which changes the meaning completely.",
+     "topic": "Preposition",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "number": 2
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the word nearest in meaning to ABANDON.",
+     "options": [
+      "Admire",
+      "Forsake",
+      "Retain",
+      "Repair"
+     ],
+     "answer_index": 1,
+     "answer": "Forsake",
+     "explanation": "Abandon = give up completely, i.e. forsake. 'Retain' is nearly its opposite; 'repair' and 'admire' have no relation to the sense of leaving something behind.",
+     "topic": "Synonym",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "number": 3
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the word most opposite in meaning to BENEVOLENT.",
+     "options": [
+      "Generous",
+      "Cruel",
+      "Helpful",
+      "Kind"
+     ],
+     "answer_index": 1,
+     "answer": "Cruel",
+     "explanation": "Benevolent = wishing good to others. The opposite must be cruel (wishing harm). 'Kind', 'generous' and 'helpful' are all synonyms of benevolent, so none can be the antonym.",
+     "topic": "Antonym",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "number": 4
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the correct meaning of the idiom: The decision was taken at the eleventh hour.",
+     "options": [
+      "after a long delay",
+      "very early",
+      "at eleven o'clock exactly",
+      "at the last possible moment"
+     ],
+     "answer_index": 3,
+     "answer": "at the last possible moment",
+     "explanation": "'At the eleventh hour' means at the last possible moment, just before it is too late. It has nothing to do with clock time, and 'very early' is its opposite.",
+     "topic": "Idiom",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "number": 5
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct phrasal verb: The committee ____ the proposal outright.",
+     "options": [
+      "turned down",
+      "turned over",
+      "turned in",
+      "turned up"
+     ],
+     "answer_index": 0,
+     "answer": "turned down",
+     "explanation": "Turn down = reject. Turn up = arrive or increase; turn in = submit or go to bed; turn over = hand over or flip. 'Outright' signals rejection, so 'turned down' fits.",
+     "topic": "Phrasal verb",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "number": 6
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Change the voice: They are building a new bridge.",
+     "options": [
+      "A new bridge has been built by them.",
+      "A new bridge is being built by them.",
+      "A new bridge is built by them.",
+      "A new bridge was being built by them."
+     ],
+     "answer_index": 1,
+     "answer": "A new bridge is being built by them.",
+     "explanation": "Present continuous passive = is/am/are + being + past participle. 'Are building' therefore becomes 'is being built' (the object 'a new bridge' is singular, so 'is').",
+     "topic": "Voice",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "number": 7
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Change the voice: Someone has stolen my pen.",
+     "options": [
+      "My pen had been stolen.",
+      "My pen has been stolen.",
+      "My pen is stolen.",
+      "My pen was stolen."
+     ],
+     "answer_index": 1,
+     "answer": "My pen has been stolen.",
+     "explanation": "Present perfect active -> has/have + been + past participle: 'has stolen' becomes 'has been stolen'. When the doer is 'someone/somebody', the agent ('by someone') is dropped in the passive.",
+     "topic": "Voice",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "number": 8
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Change into indirect speech: She said, \"I will come tomorrow.\"",
+     "options": [
+      "She said that she would come the next day.",
+      "She said that she comes the next day.",
+      "She said that she will come tomorrow.",
+      "She said that she would come tomorrow."
+     ],
+     "answer_index": 0,
+     "answer": "She said that she would come the next day.",
+     "explanation": "Two shifts happen together: 'will' -> 'would', and 'tomorrow' -> 'the next day' (or 'the following day'). Option (D) shifts the verb but forgets the time word; (C) shifts neither.",
+     "topic": "Narration",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "number": 9
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct article: ____ Ganga is a holy river.",
+     "options": [
+      "A",
+      "The",
+      "An",
+      "No article"
+     ],
+     "answer_index": 1,
+     "answer": "The",
+     "explanation": "Names of rivers take the definite article: the Ganga, the Hooghly, the Nile. The definite article marks a particular, identifiable thing, and there is only one Ganga.",
+     "topic": "Article",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "number": 10
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the correct verb: Each of the students ____ a book.",
+     "options": [
+      "were having",
+      "have",
+      "are having",
+      "has"
+     ],
+     "answer_index": 3,
+     "answer": "has",
+     "explanation": "'Each of + plural noun' is singular: each one of the students has a book. The plural noun after 'of' is not the subject. The same rule applies to 'every one of', 'either of' and 'neither of'.",
+     "topic": "Subject-verb agreement",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      2,
+      0
+     ],
+     "number": 11
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct tense: He ____ here for two hours.",
+     "options": [
+      "waited",
+      "is waiting",
+      "has been waiting",
+      "waits"
+     ],
+     "answer_index": 2,
+     "answer": "has been waiting",
+     "explanation": "'For + period of time' with an action still going on needs the present perfect continuous: has been waiting. 'Is waiting' ignores the duration, and 'waited' would mean the waiting is over.",
+     "topic": "Tense",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "number": 12
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "One-word substitution: A person who writes the story of his own life is called",
+     "options": [
+      "an autobiographer",
+      "a calligrapher",
+      "a bibliographer",
+      "a biographer"
+     ],
+     "answer_index": 0,
+     "answer": "an autobiographer",
+     "explanation": "Auto (self) + bio (life) + grapher (writer) = one who writes his own life story. A biographer writes someone else's life, a bibliographer lists books, and a calligrapher does ornamental handwriting. The word for such a writer is an autobiographer.",
+     "topic": "One-word substitution",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "number": 13
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "One-word substitution: Government by the people is called",
+     "options": [
+      "theocracy",
+      "oligarchy",
+      "democracy",
+      "autocracy"
+     ],
+     "answer_index": 2,
+     "answer": "democracy",
+     "explanation": "Demos (people) + kratos (power) = democracy. Autocracy is one-person rule, oligarchy is rule by a few, and theocracy is rule in the name of God.",
+     "topic": "One-word substitution",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "number": 14
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct collective noun: A ____ of cattle was grazing in the field.",
+     "options": [
+      "swarm",
+      "flock",
+      "herd",
+      "pack"
+     ],
+     "answer_index": 2,
+     "answer": "herd",
+     "explanation": "Herd is used for cattle (and also elephants and deer). Flock is for sheep or birds, pack for wolves or dogs, and swarm for bees or insects.",
+     "topic": "Collective noun",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "number": 15
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "The feminine gender of NEPHEW is",
+     "options": [
+      "aunt",
+      "cousin",
+      "nephewess",
+      "niece"
+     ],
+     "answer_index": 3,
+     "answer": "niece",
+     "explanation": "Nephew (brother's or sister's son) pairs with niece (brother's or sister's daughter). Aunt is the feminine of uncle, and cousin is common gender - it is used for both.",
+     "topic": "Gender",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "number": 16
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "In the phrase 'a golden ring', the word 'golden' is a/an",
+     "options": [
+      "verb",
+      "adjective",
+      "noun",
+      "adverb"
+     ],
+     "answer_index": 1,
+     "answer": "adjective",
+     "explanation": "'Golden' describes the noun 'ring', so it is an adjective. Note the difference between 'golden' (made of / like gold, adjectival) and 'gold' (the metal, a noun).",
+     "topic": "Parts of speech",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "number": 17
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Identify the type of sentence: He worked hard, yet he failed.",
+     "options": [
+      "Simple",
+      "Compound",
+      "Exclamatory",
+      "Complex"
+     ],
+     "answer_index": 1,
+     "answer": "Compound",
+     "explanation": "Two independent clauses ('He worked hard' and 'he failed') are joined by the coordinating conjunction 'yet' - that is a compound sentence. A complex sentence would need a subordinator such as although, because or if.",
+     "topic": "Sentence type",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "number": 18
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct preposition: He is incapable ____ doing such a thing.",
+     "options": [
+      "of",
+      "to",
+      "for",
+      "in"
+     ],
+     "answer_index": 0,
+     "answer": "of",
+     "explanation": "Incapable of + gerund: incapable of doing. The pair is 'capable of' / 'incapable of'. Students often write 'incapable to do', which is wrong in standard English.",
+     "topic": "Preposition",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "number": 19
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the correctly spelt word.",
+     "options": [
+      "Accommudation",
+      "Acommodation",
+      "Accomodation",
+      "Accommodation"
+     ],
+     "answer_index": 3,
+     "answer": "Accommodation",
+     "explanation": "Accommodation has double 'c' and double 'm': a-c-c-o-m-m-o-d-a-t-i-o-n. It comes from Latin 'accommodare' (to fit), and both consonants are doubled.",
+     "topic": "Spelling",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "number": 20
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct word: He is the ____ of our school.",
+     "options": [
+      "principal",
+      "principle",
+      "principally",
+      "principality"
+     ],
+     "answer_index": 0,
+     "answer": "principal",
+     "explanation": "Principal (noun) = the head of an institution; principle (noun) = a rule or belief. The mnemonic is that the princiPAL is your PAL. 'Principally' is an adverb and 'principality' means a territory ruled by a prince.",
+     "topic": "Homophone",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "number": 21
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct conjunction: ____ he is rich, he is not happy.",
+     "options": [
+      "Since",
+      "Unless",
+      "Because",
+      "Although"
+     ],
+     "answer_index": 3,
+     "answer": "Although",
+     "explanation": "The sentence contrasts wealth with unhappiness, so a concessive conjunction is needed - although / though / even though. 'Because' and 'since' would wrongly assert a cause.",
+     "topic": "Conjunction",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      1,
+      0
+     ],
+     "number": 22
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct modal: You ____ not smoke here; it is a hospital.",
+     "options": [
+      "would",
+      "must",
+      "may",
+      "can"
+     ],
+     "answer_index": 1,
+     "answer": "must",
+     "explanation": "'Must not' expresses prohibition. 'Can not'/'cannot' would state inability, and 'may not' gives only a mild negative permission - far too weak for a hospital rule.",
+     "topic": "Modal verb",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "number": 23
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Spot the error: The furnitures in this room are very old.",
+     "options": [
+      "are should be is",
+      "furnitures should be furniture",
+      "very should be much",
+      "The sentence is correct"
+     ],
+     "answer_index": 1,
+     "answer": "furnitures should be furniture",
+     "explanation": "'Furniture' is an uncountable noun and has no plural form: furniture, not furnitures. Other common uncountables of this type are information, luggage, advice, equipment and scenery.",
+     "topic": "Error spotting",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "number": 24
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the word most opposite in meaning to SCARCE.",
+     "options": [
+      "Limited",
+      "Rare",
+      "Abundant",
+      "Costly"
+     ],
+     "answer_index": 2,
+     "answer": "Abundant",
+     "explanation": "Scarce = in short supply. Its opposite is abundant (plentiful). 'Rare' and 'limited' are synonyms of scarce, and 'costly' describes price, not quantity.",
+     "topic": "Antonym",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "number": 25
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the word nearest in meaning to DILIGENT.",
+     "options": [
+      "Careless",
+      "Lazy",
+      "Hardworking",
+      "Intelligent"
+     ],
+     "answer_index": 2,
+     "answer": "Hardworking",
+     "explanation": "Diligent = showing careful and persistent effort, i.e. hardworking. 'Careless' and 'lazy' are opposites, while 'intelligent' describes ability, not effort - a common trap.",
+     "topic": "Synonym",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      0,
+      3
+     ],
+     "number": 26
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Choose the correct meaning of the idiom: The clerk let the cat out of the bag about the new transfer order.",
+     "options": [
+      "made an error",
+      "started a quarrel",
+      "escaped from duty",
+      "revealed a secret"
+     ],
+     "answer_index": 3,
+     "answer": "revealed a secret",
+     "explanation": "'Let the cat out of the bag' means to reveal a secret, usually by accident. The other options describe different situations and do not match the idiom at all.",
+     "topic": "Idiom",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "number": 27
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct phrasal verb: He ____ his father in appearance.",
+     "options": [
+      "takes off",
+      "takes on",
+      "takes in",
+      "takes after"
+     ],
+     "answer_index": 3,
+     "answer": "takes after",
+     "explanation": "Take after = resemble (a parent or relative). Take off = remove or leave the ground; take on = accept or hire; take in = deceive or absorb. 'In appearance' signals resemblance.",
+     "topic": "Phrasal verb",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "number": 28
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "Fill in the blank with the correct form: He is the ____ of the two brothers.",
+     "options": [
+      "taller",
+      "tall",
+      "more taller",
+      "tallest"
+     ],
+     "answer_index": 0,
+     "answer": "taller",
+     "explanation": "When two people or things are compared, use the comparative ('taller'), even though 'the' is often used before it ('the taller of the two'). The superlative 'tallest' needs three or more. 'More taller' is a double comparative and is wrong.",
+     "topic": "Degrees of comparison",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "number": 29
+    },
+    {
+     "section": "ENG",
+     "section_title": "English",
+     "question": "The plural form of DATUM is",
+     "options": [
+      "datas",
+      "datae",
+      "data",
+      "datums"
+     ],
+     "answer_index": 2,
+     "answer": "data",
+     "explanation": "Datum is a Latin singular ending in -um; its plural is data (-a). The same pattern gives medium -> media, memorandum -> memoranda, criterion -> criteria.",
+     "topic": "Number",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "number": 30
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Kolkata is situated on the bank of which river?",
+     "options": [
+      "Hooghly",
+      "Kangsabati",
+      "Teesta",
+      "Damodar"
+     ],
+     "answer_index": 0,
+     "answer": "Hooghly",
+     "explanation": "Kolkata stands on the east bank of the Hooghly, a distributary of the Ganga. The Damodar and Kangsabati flow through south-western West Bengal, and the Teesta drains north Bengal.",
+     "topic": "WB Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "fact": "Hooghly",
+     "source": "NCERT Class IX Geography",
+     "number": 31
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Sundarbans was declared a UNESCO World Heritage Site in",
+     "options": [
+      "1992",
+      "1973",
+      "1987",
+      "1984"
+     ],
+     "answer_index": 2,
+     "answer": "1987",
+     "explanation": "The Sundarbans National Park became a UNESCO World Heritage Site in 1987; it had been declared a tiger reserve in 1973 and a national park in 1984. Distinguish the three years carefully.",
+     "topic": "WB Static GK",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "fact": "1987",
+     "source": "UNESCO World Heritage List",
+     "number": 32
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Damodar Valley Corporation was set up in",
+     "options": [
+      "1951",
+      "1948",
+      "1955",
+      "1962"
+     ],
+     "answer_index": 1,
+     "answer": "1948",
+     "explanation": "The DVC, modelled on the Tennessee Valley Authority of the USA, was established in 1948 as India's first multipurpose river valley project. It controls floods and generates power in the Damodar basin.",
+     "topic": "WB Static GK",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "fact": "1948",
+     "source": "DVC Act, 1948",
+     "number": 33
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Durgapur Steel Plant was set up with the collaboration of",
+     "options": [
+      "the United Kingdom",
+      "the Soviet Union",
+      "Germany",
+      "Japan"
+     ],
+     "answer_index": 0,
+     "answer": "the United Kingdom",
+     "explanation": "Durgapur (1962) was built with British help; Bhilai and Bokaro with the Soviet Union, Rourkela with Germany, and Salem with Japan. This pairing is a favourite in PSC papers.",
+     "topic": "Economy",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fact": "United Kingdom",
+     "source": "SAIL corporate history",
+     "number": 34
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which social reformer is associated with the Widow Remarriage Act of 1856?",
+     "options": [
+      "Keshab Chandra Sen",
+      "Swami Vivekananda",
+      "Ishwar Chandra Vidyasagar",
+      "Raja Ram Mohan Roy"
+     ],
+     "answer_index": 2,
+     "answer": "Ishwar Chandra Vidyasagar",
+     "explanation": "Vidyasagar's campaign led to the Hindu Widows' Remarriage Act of 1856. Ram Mohan Roy is linked to the abolition of sati (1829), Vivekananda to the Ramakrishna Mission, and Keshab Chandra Sen to the Brahmo Samaj of India.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "fact": "Ishwar Chandra Vidyasagar",
+     "source": "NCERT Class VIII History, Ch. 8",
+     "number": 35
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Young Bengal Movement in Bengal was led by",
+     "options": [
+      "David Hare",
+      "William Carey",
+      "Alexander Duff",
+      "Henry Vivian Derozio"
+     ],
+     "answer_index": 3,
+     "answer": "Henry Vivian Derozio",
+     "explanation": "Henry Vivian Derozio, a teacher at Hindu College, inspired the Young Bengal group in the 1820s with ideas of rationalism and free enquiry. Hare and Duff were educationists, and Carey was a Baptist missionary and translator.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "fact": "Henry Vivian Derozio",
+     "source": "NCERT Class VIII History, Ch. 8",
+     "number": 36
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which district of West Bengal has the largest area?",
+     "options": [
+      "South 24 Parganas",
+      "Bankura",
+      "Jalpaiguri",
+      "Paschim Medinipur"
+     ],
+     "answer_index": 0,
+     "answer": "South 24 Parganas",
+     "explanation": "South 24 Parganas, about 9,960 sq km, is the largest district of West Bengal by area; it also contains the Indian Sundarbans. Kolkata, at roughly 185 sq km, is the smallest.",
+     "topic": "WB Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "fact": "South 24 Parganas",
+     "source": "Census of India, District Handbook",
+     "number": 37
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Quit India Movement was launched in",
+     "options": [
+      "1930",
+      "1946",
+      "1940",
+      "1942"
+     ],
+     "answer_index": 3,
+     "answer": "1942",
+     "explanation": "Gandhiji launched the Quit India Movement on 8 August 1942 from Gowalia Tank Maidan, Bombay, with the slogan 'Do or Die'. 1930 is the Salt Satyagraha and 1946 the Naval Mutiny.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      2,
+      0
+     ],
+     "fact": "1942",
+     "source": "NCERT Class VIII History, Ch. 11",
+     "number": 38
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Who founded the Arya Samaj?",
+     "options": [
+      "Annie Besant",
+      "Raja Ram Mohan Roy",
+      "Swami Vivekananda",
+      "Swami Dayananda Saraswati"
+     ],
+     "answer_index": 3,
+     "answer": "Swami Dayananda Saraswati",
+     "explanation": "Swami Dayananda Saraswati founded the Arya Samaj in 1875 at Bombay and gave the call 'Back to the Vedas'. Vivekananda founded the Ramakrishna Mission (1897) and Besant led the Theosophical Society.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fact": "Swami Dayananda Saraswati",
+     "source": "NCERT Class VIII History",
+     "number": 39
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Battle of Buxar was fought in",
+     "options": [
+      "1739",
+      "1764",
+      "1765",
+      "1757"
+     ],
+     "answer_index": 1,
+     "answer": "1764",
+     "explanation": "The Battle of Buxar (1764) was won by the English under Hector Munro against Mir Qasim, Shuja-ud-Daulah and Shah Alam II. It led directly to the grant of the Diwani of Bengal in 1765. Plassey was 1757.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "fact": "1764",
+     "source": "NCERT Class VIII History, Ch. 2",
+     "number": 40
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Mohenjo-daro is situated on the bank of which river?",
+     "options": [
+      "Indus",
+      "Ghaggar",
+      "Saraswati",
+      "Ravi"
+     ],
+     "answer_index": 0,
+     "answer": "Indus",
+     "explanation": "Mohenjo-daro lies on the right bank of the Indus in Sindh (Pakistan). Harappa is on the Ravi, and Kalibangan on the Ghaggar. The Great Bath and the Great Granary are Mohenjo-daro's famous structures.",
+     "topic": "Ancient History",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "fact": "Indus",
+     "source": "NCERT Class VI History, Ch. 3",
+     "number": 41
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Who is known as the 'Grand Old Man of India'?",
+     "options": [
+      "Gopal Krishna Gokhale",
+      "Bal Gangadhar Tilak",
+      "Dadabhai Naoroji",
+      "Surendranath Banerjee"
+     ],
+     "answer_index": 2,
+     "answer": "Dadabhai Naoroji",
+     "explanation": "Dadabhai Naoroji, the first Indian elected to the British House of Commons, is called the Grand Old Man of India. Gokhale was the 'Mahatma' of Indian politics, Tilak the 'Father of Indian Unrest', and Banerjee the 'Rashtraguru'.",
+     "topic": "Modern History",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      0,
+      3
+     ],
+     "fact": "Dadabhai Naoroji",
+     "source": "NCERT Class VIII History",
+     "number": 42
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which state of India has the largest area?",
+     "options": [
+      "Madhya Pradesh",
+      "Uttar Pradesh",
+      "Rajasthan",
+      "Maharashtra"
+     ],
+     "answer_index": 2,
+     "answer": "Rajasthan",
+     "explanation": "Rajasthan (3,42,239 sq km) is the largest state by area; Madhya Pradesh is second and Maharashtra third. Rajasthan is also the largest state by area in India and accounts for about 10.4% of the country's land.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "fact": "Rajasthan",
+     "source": "NCERT Class IX Geography",
+     "number": 43
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which river is called the 'Sorrow of Bihar'?",
+     "options": [
+      "Kosi",
+      "Son",
+      "Ghaghara",
+      "Gandak"
+     ],
+     "answer_index": 0,
+     "answer": "Kosi",
+     "explanation": "The Kosi, which shifts its course dramatically every few years in north Bihar, is called the Sorrow of Bihar. The Damodar is the Sorrow of Bengal and the Brahmaputra causes heavy floods in Assam.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "fact": "Kosi",
+     "source": "NCERT Class IX Geography",
+     "number": 44
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which Indian port is known as the 'Queen of the Arabian Sea'?",
+     "options": [
+      "Chennai",
+      "Mangaluru",
+      "Mumbai",
+      "Kochi"
+     ],
+     "answer_index": 3,
+     "answer": "Kochi",
+     "explanation": "Kochi (Cochin) in Kerala, a natural harbour built around the Vembanad lagoon, is called the Queen of the Arabian Sea. It also has the Indian Navy's Southern Command base, INS Venduruthy.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fact": "Kochi",
+     "source": "Ministry of Ports, Shipping and Waterways",
+     "number": 45
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The highest mountain peak that lies wholly within Indian territory is",
+     "options": [
+      "Saltoro Kangri",
+      "Kamet",
+      "Nanda Devi",
+      "Kangchenjunga"
+     ],
+     "answer_index": 2,
+     "answer": "Nanda Devi",
+     "explanation": "Nanda Devi (7,816 m) in Uttarakhand is the highest peak standing entirely inside Indian territory. Kangchenjunga (8,586 m) is taller but sits on the India-Nepal border, and K2 (8,611 m) lies in Pakistan-occupied Kashmir - so both fail the word 'wholly'.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      0,
+      1
+     ],
+     "fact": "Nanda Devi",
+     "source": "Survey of India",
+     "number": 46
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which soil covers the largest area of India?",
+     "options": [
+      "laterite soil",
+      "alluvial soil",
+      "red soil",
+      "black soil"
+     ],
+     "answer_index": 1,
+     "answer": "alluvial soil",
+     "explanation": "Alluvial soil covers roughly 40% of India's area - the entire northern plains and the coastal deltas. It is rich in potash and lime but poor in nitrogen and humus, and it supports the densest population.",
+     "topic": "Indian Geography",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "fact": "alluvial",
+     "source": "NCERT Class X Geography, Ch. 1",
+     "number": 47
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Fundamental Duties were added to the Constitution by which amendment?",
+     "options": [
+      "44th Amendment",
+      "73rd Amendment",
+      "52nd Amendment",
+      "42nd Amendment"
+     ],
+     "answer_index": 3,
+     "answer": "42nd Amendment",
+     "explanation": "The 42nd Amendment Act, 1976, inserted Part IV-A (Article 51A) with ten Fundamental Duties on the recommendation of the Swaran Singh Committee. The 86th Amendment later added the eleventh duty (education of children).",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "fact": "42nd Amendment",
+     "source": "Constitution of India, Part IV-A",
+     "number": 48
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The maximum strength of the Lok Sabha as provided in the Constitution is",
+     "options": [
+      "545",
+      "550",
+      "560",
+      "552"
+     ],
+     "answer_index": 3,
+     "answer": "552",
+     "explanation": "Article 81 allows a maximum of 552 members: 530 from states, 20 from Union Territories and 2 nominated Anglo-Indians (the nomination lapsed in 2020). The present strength is 545.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "fact": "552",
+     "source": "Constitution of India, Article 81",
+     "number": 49
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Speaker of the Lok Sabha is elected by",
+     "options": [
+      "the members of the Lok Sabha",
+      "both Houses of Parliament",
+      "the President",
+      "the Prime Minister"
+     ],
+     "answer_index": 0,
+     "answer": "the members of the Lok Sabha",
+     "explanation": "Under Article 93, the Speaker and the Deputy Speaker are elected by the House from among its own members. The Speaker does not have to resign from the party but must resign his seat; he votes only to break a tie.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "fact": "the members of the Lok Sabha",
+     "source": "Constitution of India, Article 93",
+     "number": 50
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Election Commission of India is a",
+     "options": [
+      "statutory body",
+      "constitutional body",
+      "department of the Home Ministry",
+      "advisory body"
+     ],
+     "answer_index": 1,
+     "answer": "constitutional body",
+     "explanation": "The Election Commission is established by Article 324 and is therefore a constitutional body. NITI Aayog is an executive body and the Central Vigilance Commission a statutory one - do not mix them up.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "fact": "constitutional body",
+     "source": "Constitution of India, Article 324",
+     "number": 51
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Finance Commission of India is constituted under",
+     "options": [
+      "Article 356",
+      "Article 324",
+      "Article 148",
+      "Article 280"
+     ],
+     "answer_index": 3,
+     "answer": "Article 280",
+     "explanation": "Article 280 provides for a Finance Commission every five years to recommend the distribution of tax proceeds between the Union and the states. Article 324 is the Election Commission, 356 President's rule and 148 the CAG.",
+     "topic": "Polity",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "fact": "Article 280",
+     "source": "Constitution of India, Article 280",
+     "number": 52
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which organ of the human body is called the 'master gland'?",
+     "options": [
+      "adrenal",
+      "pancreas",
+      "thyroid",
+      "pituitary"
+     ],
+     "answer_index": 3,
+     "answer": "pituitary",
+     "explanation": "The pituitary, at the base of the brain, controls the other endocrine glands by secreting stimulating hormones, so it is called the master gland. The thyroid controls metabolism and the adrenal glands produce adrenaline and cortisol.",
+     "topic": "Biology",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      1,
+      0
+     ],
+     "fact": "pituitary",
+     "source": "NCERT Class X Science, Ch. 7",
+     "number": 53
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which blood group is called the universal donor?",
+     "options": [
+      "AB positive",
+      "O negative",
+      "A positive",
+      "B negative"
+     ],
+     "answer_index": 1,
+     "answer": "O negative",
+     "explanation": "O negative red cells carry neither A nor B antigens nor the Rh antigen, so they can be given to any patient. AB positive is the universal recipient because its plasma has no antibodies.",
+     "topic": "Biology",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "fact": "O negative",
+     "source": "NCERT Class X Science",
+     "number": 54
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The normal human body temperature is about",
+     "options": [
+      "40 degrees Celsius",
+      "39 degrees Celsius",
+      "35 degrees Celsius",
+      "37 degrees Celsius"
+     ],
+     "answer_index": 3,
+     "answer": "37 degrees Celsius",
+     "explanation": "Normal core body temperature is about 37 deg C (98.6 deg F). The hypothalamus regulates it. Fever is usually taken as above 38 deg C, and hypothermia below 35 deg C.",
+     "topic": "Biology",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fact": "37 degrees Celsius",
+     "source": "NCERT Class X Science",
+     "number": 55
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The speed of light in vacuum is approximately",
+     "options": [
+      "3 x 10^5 m/s",
+      "3 x 10^8 m/s",
+      "3 x 10^10 m/s",
+      "3 x 10^6 m/s"
+     ],
+     "answer_index": 1,
+     "answer": "3 x 10^8 m/s",
+     "explanation": "Light travels at about 2.998 x 10^8 m/s, rounded to 3 x 10^8 m/s. That is why sunlight takes about 8 minutes 20 seconds to reach the Earth, and it is the speed limit of the universe.",
+     "topic": "Physics",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "fact": "3 x 10^8 m/s",
+     "source": "NCERT Class X Science, Ch. 10",
+     "number": 56
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The SI unit of electrical resistance is",
+     "options": [
+      "volt",
+      "ohm",
+      "ampere",
+      "watt"
+     ],
+     "answer_index": 1,
+     "answer": "ohm",
+     "explanation": "Resistance is measured in ohms (the Greek letter omega), from Ohm's law V = IR. Ampere measures current, volt potential difference and watt power.",
+     "topic": "Physics",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      1,
+      3
+     ],
+     "fact": "ohm",
+     "source": "NCERT Class X Science, Ch. 12",
+     "number": 57
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which is the largest planet of the solar system?",
+     "options": [
+      "Saturn",
+      "Neptune",
+      "Earth",
+      "Jupiter"
+     ],
+     "answer_index": 3,
+     "answer": "Jupiter",
+     "explanation": "Jupiter is the largest planet - its mass is about 2.5 times that of all the other planets put together, and it carries the Great Red Spot. Saturn is second in size, but it overtook Jupiter in 2023-25 in the number of confirmed moons, so size and moon count are two different questions.",
+     "topic": "Science",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "fact": "Jupiter",
+     "source": "NASA planetary fact sheets",
+     "number": 58
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Ramsar Convention is associated with the conservation of",
+     "options": [
+      "deserts",
+      "wetlands",
+      "marine mammals",
+      "forests"
+     ],
+     "answer_index": 1,
+     "answer": "wetlands",
+     "explanation": "The Ramsar Convention (1971, Ramsar in Iran) protects wetlands of international importance. India has over 80 Ramsar sites, including the East Kolkata Wetlands and the Sundarbans.",
+     "topic": "Environment",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "fact": "wetlands",
+     "source": "Ramsar Convention Secretariat",
+     "number": 59
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The Montreal Protocol deals with",
+     "options": [
+      "greenhouse gases",
+      "ozone-depleting substances",
+      "hazardous waste",
+      "biodiversity"
+     ],
+     "answer_index": 1,
+     "answer": "ozone-depleting substances",
+     "explanation": "The Montreal Protocol (1987) phases out CFCs and other ozone-depleting substances. Greenhouse gases are covered by the Kyoto Protocol and the Paris Agreement, biodiversity by the CBD, and hazardous waste by the Basel Convention.",
+     "topic": "Environment",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "fact": "ozone-depleting substances",
+     "source": "UNEP Montreal Protocol",
+     "number": 60
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "India's First Five Year Plan was launched in",
+     "options": [
+      "1951",
+      "1956",
+      "1947",
+      "1961"
+     ],
+     "answer_index": 0,
+     "answer": "1951",
+     "explanation": "The First Five Year Plan ran from 1951 to 1956 and concentrated on agriculture and irrigation, following the Harrod-Domar model. The Planning Commission itself was set up in 1950, and the Second Plan (1956-61) shifted focus to heavy industry.",
+     "topic": "Economy",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      1,
+      3
+     ],
+     "fact": "1951",
+     "source": "Planning Commission archives",
+     "number": 61
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The National Food Security Act was passed in",
+     "options": [
+      "2011",
+      "2009",
+      "2013",
+      "2015"
+     ],
+     "answer_index": 2,
+     "answer": "2013",
+     "explanation": "The NFSA, 2013, gives legal entitlement to subsidised foodgrain to about two-thirds of the population under the Antyodaya and priority-household categories. It is implemented through the PDS.",
+     "topic": "Economy",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "fact": "2013",
+     "source": "NFSA, 2013",
+     "number": 62
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which city will host the 2028 Summer Olympics?",
+     "options": [
+      "Brisbane",
+      "Los Angeles",
+      "Tokyo",
+      "Paris"
+     ],
+     "answer_index": 1,
+     "answer": "Los Angeles",
+     "explanation": "Los Angeles will host the 2028 Summer Olympics, after Paris 2024. Brisbane hosts in 2032. LA previously hosted the Games in 1932 and 1984.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "fact": "Los Angeles",
+     "source": "International Olympic Committee",
+     "number": 63
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "The 2026 Asian Games were held in",
+     "options": [
+      "Jakarta, Indonesia",
+      "Aichi-Nagoya, Japan",
+      "Doha, Qatar",
+      "Hangzhou, China"
+     ],
+     "answer_index": 1,
+     "answer": "Aichi-Nagoya, Japan",
+     "explanation": "The 20th Asian Games, Aichi-Nagoya 2026, run from 19 September to 4 October 2026 in Japan. Hangzhou hosted in 2023 (held in 2023 after a delay) and Jakarta in 2018.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "fact": "Aichi-Nagoya, Japan",
+     "source": "Olympic Council of Asia / media reports, September 2026",
+     "number": 64
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Where was the final of the ICC Men's T20 World Cup 2026 played?",
+     "options": [
+      "Mumbai",
+      "Kolkata",
+      "Ahmedabad",
+      "Colombo"
+     ],
+     "answer_index": 2,
+     "answer": "Ahmedabad",
+     "explanation": "The final was played at the Narendra Modi Stadium, Ahmedabad, on 8 March 2026, where India beat New Zealand by 96 runs. India and Sri Lanka co-hosted the tournament.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      1,
+      0,
+      2
+     ],
+     "fact": "Ahmedabad",
+     "source": "ICC / media reports, March 2026",
+     "number": 65
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "At the Commonwealth Games 2026, India finished",
+     "options": [
+      "fourth",
+      "second",
+      "third",
+      "sixth"
+     ],
+     "answer_index": 0,
+     "answer": "fourth",
+     "explanation": "India finished fourth at Glasgow 2026 with 39 medals - 13 gold, 17 silver and 9 bronze - behind Australia, England and Canada. Boxing gave India its highest haul, with 7 golds.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fact": "fourth",
+     "source": "CGF / media reports, August 2026",
+     "number": 66
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which country topped the medal table at the 2026 Winter Olympics?",
+     "options": [
+      "United States",
+      "Norway",
+      "Italy",
+      "Germany"
+     ],
+     "answer_index": 1,
+     "answer": "Norway",
+     "explanation": "Norway topped the Milano-Cortina 2026 table with 18 golds and 41 medals, followed by the USA (12 golds) and the Netherlands (10 golds). The Games ran from 6 to 22 February 2026 in Italy.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "fact": "Norway",
+     "source": "IOC / media reports, February 2026",
+     "number": 67
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Which party formed the government in West Bengal after the 2026 Assembly election?",
+     "options": [
+      "All India Trinamool Congress",
+      "Indian National Congress",
+      "Communist Party of India (Marxist)",
+      "Bharatiya Janata Party"
+     ],
+     "answer_index": 3,
+     "answer": "Bharatiya Janata Party",
+     "explanation": "The BJP won a majority in the 2026 West Bengal Assembly election, ending 15 years of Trinamool Congress rule, and Suvendu Adhikari was sworn in as Chief Minister on 9 May 2026.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "fact": "Bharatiya Janata Party",
+     "source": "Election Commission of India / media, May 2026",
+     "number": 68
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Who is the present Chief Election Commissioner of India?",
+     "options": [
+      "Sunil Arora",
+      "Sushil Chandra",
+      "Rajiv Kumar",
+      "Gyanesh Kumar"
+     ],
+     "answer_index": 3,
+     "answer": "Gyanesh Kumar",
+     "explanation": "Gyanesh Kumar took charge as the Chief Election Commissioner on 19 February 2025. The CEC heads the three-member Election Commission, a constitutional body under Article 324.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      2,
+      1,
+      0
+     ],
+     "fact": "Gyanesh Kumar",
+     "source": "Election Commission of India; '2026 in India'",
+     "number": 69
+    },
+    {
+     "section": "GS",
+     "section_title": "General Studies",
+     "question": "Who is the present Finance Minister of India?",
+     "options": [
+      "Nirmala Sitharaman",
+      "Piyush Goyal",
+      "Amit Shah",
+      "Nitin Gadkari"
+     ],
+     "answer_index": 0,
+     "answer": "Nirmala Sitharaman",
+     "explanation": "Nirmala Sitharaman has been the Union Finance Minister since 31 May 2019 and presented her ninth consecutive Union Budget on 1 February 2026, the longest continuous run by any Finance Minister. She is India's first full-time woman Finance Minister.",
+     "topic": "Current Affairs",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      2,
+      3
+     ],
+     "fact": "Nirmala Sitharaman",
+     "source": "Ministry of Finance, Budget 2026-27",
+     "number": 70
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "Simplify: 0.75 + 0.25 x 2.4",
+     "options": [
+      "1.40",
+      "1.25",
+      "1.35",
+      "1.30"
+     ],
+     "answer_index": 2,
+     "answer": "1.35",
+     "explanation": "Step 1: Multiplication before addition (BODMAS): 0.25 x 2.4 = 0.6. Step 2: 0.75 + 0.6 = 1.35. The common mistake is to add 0.75 + 0.25 first, which gives a wrong 2.4.",
+     "topic": "Decimals",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "check": "0.75 + 0.25*2.4",
+     "number": 71
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The recurring decimal 0.444... is equal to the fraction",
+     "options": [
+      "2/5",
+      "4/9",
+      "4/11",
+      "1/2"
+     ],
+     "answer_index": 1,
+     "answer": "4/9",
+     "explanation": "Step 1: Let x = 0.444... Step 2: 10x = 4.444..., so 10x - x = 4. Step 3: 9x = 4, hence x = 4/9. Rule: a single repeating digit d is d/9; two repeating digits give a multiple of 1/99.",
+     "topic": "Recurring decimals",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "check": "4/9",
+     "number": 72
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The HCF of 36, 60 and 84 is",
+     "options": [
+      "18",
+      "24",
+      "12",
+      "6"
+     ],
+     "answer_index": 2,
+     "answer": "12",
+     "explanation": "Step 1: 36 = 2^2 x 3^2, 60 = 2^2 x 3 x 5, 84 = 2^2 x 3 x 7. Step 2: Take the common factors with the lowest powers: 2^2 x 3. Step 3: 4 x 3 = 12.",
+     "topic": "HCF and LCM",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "check": "math.gcd(36, math.gcd(60, 84))",
+     "number": 73
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The LCM of 12, 15 and 20 is",
+     "options": [
+      "180",
+      "90",
+      "60",
+      "120"
+     ],
+     "answer_index": 2,
+     "answer": "60",
+     "explanation": "Step 1: 12 = 2^2 x 3, 15 = 3 x 5, 20 = 2^2 x 5. Step 2: Take every prime with the highest power: 2^2 x 3 x 5. Step 3: 4 x 3 x 5 = 60.",
+     "topic": "HCF and LCM",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      3,
+      0,
+      1
+     ],
+     "check": "60",
+     "number": 74
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "Two numbers are in the ratio 5 : 7 and their difference is 24. The smaller number is",
+     "options": [
+      "48",
+      "84",
+      "60",
+      "72"
+     ],
+     "answer_index": 2,
+     "answer": "60",
+     "explanation": "Step 1: Let the numbers be 5x and 7x; difference = 2x = 24. Step 2: x = 12. Step 3: Smaller = 5x = 60 (the larger is 84).",
+     "topic": "Ratio",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "check": "5*24/2",
+     "number": 75
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The average of six numbers is 15. When one number, 20, is removed, the average of the remaining five is",
+     "options": [
+      "14",
+      "12",
+      "15",
+      "13"
+     ],
+     "answer_index": 0,
+     "answer": "14",
+     "explanation": "Step 1: Sum of six numbers = 6 x 15 = 90. Step 2: After removing 20 the sum is 70 for 5 numbers. Step 3: New average = 70/5 = 14.",
+     "topic": "Average",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "check": "(6*15-20)/5",
+     "number": 76
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A number increased by 20% becomes 360. The original number is",
+     "options": [
+      "288",
+      "320",
+      "300",
+      "280"
+     ],
+     "answer_index": 2,
+     "answer": "300",
+     "explanation": "Step 1: Let the number be x; then 1.20x = 360. Step 2: x = 360/1.20. Step 3: x = 300. Check: 20% of 300 is 60, and 300 + 60 = 360.",
+     "topic": "Percentage",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      0,
+      3
+     ],
+     "check": "360/1.2",
+     "number": 77
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A sum of money earns a simple interest of Rs 1,200 at 5% per annum in 3 years. The sum is",
+     "options": [
+      "Rs 8,000",
+      "Rs 9,000",
+      "Rs 6,000",
+      "Rs 7,500"
+     ],
+     "answer_index": 0,
+     "answer": "Rs 8,000",
+     "explanation": "Step 1: SI = P x R x T/100, so P = SI x 100/(R x T). Step 2: P = 1200 x 100/(5 x 3). Step 3: P = 1,20,000/15 = Rs 8,000.",
+     "topic": "Simple interest",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "check": "1200*100/(5*3)",
+     "number": 78
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "An article costing Rs 250 is sold at a loss of 8%. The selling price is",
+     "options": [
+      "Rs 230",
+      "Rs 232",
+      "Rs 235",
+      "Rs 228"
+     ],
+     "answer_index": 0,
+     "answer": "Rs 230",
+     "explanation": "Step 1: Loss = 8% of 250 = 0.08 x 250 = 20. Step 2: SP = CP - loss = 250 - 20. Step 3: SP = Rs 230. (Shortcut: SP = CP x 0.92.)",
+     "topic": "Profit and loss",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "check": "250*0.92",
+     "number": 79
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "Successive discounts of 20% and 10% are given on an article marked at Rs 500. The price paid is",
+     "options": [
+      "Rs 360",
+      "Rs 340",
+      "Rs 370",
+      "Rs 350"
+     ],
+     "answer_index": 0,
+     "answer": "Rs 360",
+     "explanation": "Step 1: After the first discount, price = 500 x 0.80 = 400. Step 2: The second discount is on the reduced price: 400 x 0.90 = 360. Step 3: Price paid = Rs 360. (Do not add 20% + 10% = 30%. The single equivalent discount here is 28%.)",
+     "topic": "Discount",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "check": "500*0.8*0.9",
+     "number": 80
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A man covers 6 km at 4 km/h and another 6 km at 6 km/h. His average speed for the whole journey is",
+     "options": [
+      "5.2 km/h",
+      "4.8 km/h",
+      "4.5 km/h",
+      "5 km/h"
+     ],
+     "answer_index": 1,
+     "answer": "4.8 km/h",
+     "explanation": "Step 1: Time for the first part = 6/4 = 1.5 h; second part = 6/6 = 1 h. Step 2: Total distance 12 km, total time 2.5 h. Step 3: Average speed = 12/2.5 = 4.8 km/h. (For equal distances, the average is the harmonic mean, not 5.)",
+     "topic": "Speed and distance",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      2,
+      1
+     ],
+     "check": "12/(6/4+6/6)",
+     "number": 81
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A train 200 m long, running at 72 km/h, crosses a signal post in",
+     "options": [
+      "8 seconds",
+      "12 seconds",
+      "15 seconds",
+      "10 seconds"
+     ],
+     "answer_index": 3,
+     "answer": "10 seconds",
+     "explanation": "Step 1: Convert speed: 72 x 5/18 = 20 m/s. Step 2: To cross a post (a point) the train covers only its own length, 200 m. Step 3: Time = 200/20 = 10 seconds.",
+     "topic": "Trains",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      3,
+      0
+     ],
+     "check": "200/(72*5/18)",
+     "number": 82
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A and B together finish a work in 10 days; A alone takes 15 days. B alone will take",
+     "options": [
+      "25 days",
+      "30 days",
+      "20 days",
+      "35 days"
+     ],
+     "answer_index": 1,
+     "answer": "30 days",
+     "explanation": "Step 1: Together one day = 1/10; A one day = 1/15. Step 2: B one day = 1/10 - 1/15 = (3 - 2)/30 = 1/30. Step 3: B alone takes 30 days.",
+     "topic": "Time and work",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      2,
+      3
+     ],
+     "check": "1/(1/10-1/15)",
+     "number": 83
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A pipe fills a tank in 12 hours and a drain empties it in 20 hours. If both are opened when the tank is empty, it will be full in",
+     "options": [
+      "24 hours",
+      "30 hours",
+      "36 hours",
+      "32 hours"
+     ],
+     "answer_index": 1,
+     "answer": "30 hours",
+     "explanation": "Step 1: Filling rate = 1/12, emptying rate = 1/20. Step 2: Net rate = 1/12 - 1/20 = (5 - 3)/60 = 2/60 = 1/30. Step 3: Time = 30 hours.",
+     "topic": "Pipes and cisterns",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "check": "1/(1/12-1/20)",
+     "number": 84
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A boat covers 30 km downstream in 2 hours. If the speed of the stream is 3 km/h, the speed of the boat in still water is",
+     "options": [
+      "10 km/h",
+      "12 km/h",
+      "18 km/h",
+      "15 km/h"
+     ],
+     "answer_index": 1,
+     "answer": "12 km/h",
+     "explanation": "Step 1: Downstream speed = 30/2 = 15 km/h. Step 2: Downstream = still water + stream, so still water = 15 - 3. Step 3: 12 km/h. (Upstream speed would then be 12 - 3 = 9 km/h.)",
+     "topic": "Boats and streams",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      0,
+      3,
+      1
+     ],
+     "check": "30/2 - 3",
+     "number": 85
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A father is four times as old as his son. After 10 years he will be twice as old as his son. The son's present age is",
+     "options": [
+      "5 years",
+      "10 years",
+      "6 years",
+      "8 years"
+     ],
+     "answer_index": 0,
+     "answer": "5 years",
+     "explanation": "Step 1: Let the son be x and the father 4x. Step 2: After 10 years, 4x + 10 = 2(x + 10), so 4x + 10 = 2x + 20. Step 3: 2x = 10, x = 5 years. Check: father 20, after 10 years 30 = 2 x 15.",
+     "topic": "Ages",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "check": "10/(4-2)",
+     "number": 86
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The angle between the hands of a clock at 4:20 is",
+     "options": [
+      "10 degrees",
+      "30 degrees",
+      "20 degrees",
+      "0 degrees"
+     ],
+     "answer_index": 0,
+     "answer": "10 degrees",
+     "explanation": "Step 1: Hour hand = 4 x 30 + 20 x 0.5 = 120 + 10 = 130 deg. Step 2: Minute hand = 20 x 6 = 120 deg. Step 3: Difference = 10 degrees.",
+     "topic": "Clocks",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      2,
+      1
+     ],
+     "check": "abs(20*6 - (4*30 + 20*0.5))",
+     "number": 87
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "If 1 January 2027 is a Friday, then 1 February 2027 is a",
+     "options": [
+      "Sunday",
+      "Tuesday",
+      "Saturday",
+      "Monday"
+     ],
+     "answer_index": 3,
+     "answer": "Monday",
+     "explanation": "Step 1: January has 31 days, and 31 = 4 x 7 + 3. Step 2: So 1 February is 3 days after Friday. Step 3: Friday + 3 = Monday.",
+     "topic": "Calendar",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "check": "fact:Monday",
+     "number": 88
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The area of a square whose perimeter is 48 m is",
+     "options": [
+      "144 sq m",
+      "121 sq m",
+      "576 sq m",
+      "196 sq m"
+     ],
+     "answer_index": 0,
+     "answer": "144 sq m",
+     "explanation": "Step 1: Side = perimeter/4 = 48/4 = 12 m. Step 2: Area = side x side = 12 x 12. Step 3: 144 sq m. (576 sq m is the trap - that is the square of the perimeter.)",
+     "topic": "Area",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "check": "(48/4)**2",
+     "number": 89
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The length of the diagonal of a rectangle of sides 15 cm and 8 cm is",
+     "options": [
+      "17 cm",
+      "19 cm",
+      "23 cm",
+      "16 cm"
+     ],
+     "answer_index": 0,
+     "answer": "17 cm",
+     "explanation": "Step 1: The diagonal forms a right triangle with the two sides. Step 2: d = sqrt(15^2 + 8^2) = sqrt(225 + 64) = sqrt(289). Step 3: d = 17 cm (the 8-15-17 triple).",
+     "topic": "Area",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      3,
+      1,
+      2
+     ],
+     "check": "math.hypot(15, 8)",
+     "number": 90
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "How many of the numbers 4563, 1234, 5678 and 2345 are divisible by 9?",
+     "options": [
+      "2",
+      "3",
+      "1",
+      "0"
+     ],
+     "answer_index": 2,
+     "answer": "1",
+     "explanation": "Step 1: A number is divisible by 9 only if its digit sum is divisible by 9. Step 2: The digit sums are 4+5+6+3 = 18 (divisible), 1+2+3+4 = 10, 5+6+7+8 = 26 and 2+3+4+5 = 14. Step 3: Only 4563 qualifies (4563/9 = 507), so exactly 1 of the four numbers is divisible by 9.",
+     "topic": "Divisibility",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      0,
+      3
+     ],
+     "check": "sum(1 for n in (4563, 1234, 5678, 2345) if n % 9 == 0)",
+     "number": 91
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "Simplify: (0.6^3 + 0.4^3) / (0.6^2 - 0.6 x 0.4 + 0.4^2)",
+     "options": [
+      "0.2",
+      "10",
+      "0.1",
+      "1"
+     ],
+     "answer_index": 3,
+     "answer": "1",
+     "explanation": "Step 1: Use the identity a^3 + b^3 = (a + b)(a^2 - ab + b^2). Step 2: The denominator is exactly (a^2 - ab + b^2), so the expression reduces to a + b. Step 3: 0.6 + 0.4 = 1.",
+     "topic": "Simplification",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      2,
+      3,
+      0
+     ],
+     "check": "(0.6**3 + 0.4**3)/(0.6**2 - 0.6*0.4 + 0.4**2)",
+     "number": 92
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A invests Rs 4,000 for 12 months and B invests Rs 6,000 for 8 months. In a profit of Rs 2,400, A's share is",
+     "options": [
+      "Rs 1,600",
+      "Rs 1,200",
+      "Rs 1,400",
+      "Rs 1,000"
+     ],
+     "answer_index": 1,
+     "answer": "Rs 1,200",
+     "explanation": "Step 1: Capital x time: A = 4000 x 12 = 48,000; B = 6000 x 8 = 48,000. Step 2: Ratio = 1 : 1. Step 3: A's share = 2400 x 1/2 = Rs 1,200.",
+     "topic": "Partnership",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "check": "2400*4000*12/(4000*12+6000*8)",
+     "number": 93
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "A 60-litre mixture contains milk and water in the ratio 2 : 1. If 12 litres of water is added, the new ratio of milk to water is",
+     "options": [
+      "2 : 1",
+      "4 : 3",
+      "5 : 4",
+      "5 : 3"
+     ],
+     "answer_index": 2,
+     "answer": "5 : 4",
+     "explanation": "Step 1: Milk = 2/3 x 60 = 40 L; water = 1/3 x 60 = 20 L. Step 2: Water becomes 20 + 12 = 32 L while milk stays 40 L. Step 3: Ratio = 40 : 32 = 5 : 4.",
+     "topic": "Mixture",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      3,
+      0,
+      2
+     ],
+     "check": "40/32",
+     "number": 94
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "15% of 20% of 500 is",
+     "options": [
+      "30",
+      "75",
+      "15",
+      "20"
+     ],
+     "answer_index": 2,
+     "answer": "15",
+     "explanation": "Step 1: 20% of 500 = 100. Step 2: 15% of 100 = 15. Step 3: Answer 15. (Multiplying 15 x 20 = 300 and taking 300/100 of 500 gives the same: 15.)",
+     "topic": "Percentage",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "check": "0.15*0.20*500",
+     "number": 95
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The average of the first 15 odd numbers is",
+     "options": [
+      "15",
+      "8",
+      "7.5",
+      "30"
+     ],
+     "answer_index": 0,
+     "answer": "15",
+     "explanation": "Step 1: The first n odd numbers are 1, 3, 5, ..., (2n - 1). Step 2: Their sum is n^2 = 225 for n = 15. Step 3: Average = 225/15 = 15, and in general the average of the first n odd numbers is n.",
+     "topic": "Average",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      1,
+      3,
+      2
+     ],
+     "check": "sum(range(1, 30, 2))/15",
+     "number": 96
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The difference between the compound interest and the simple interest on Rs 1,000 at 10% per annum for 2 years is",
+     "options": [
+      "Rs 10",
+      "Rs 5",
+      "Rs 15",
+      "Rs 20"
+     ],
+     "answer_index": 0,
+     "answer": "Rs 10",
+     "explanation": "Step 1: SI = 1000 x 10 x 2/100 = Rs 200. Step 2: CI = 1000 x (1.1)^2 - 1000 = 1210 - 1000 = Rs 210. Step 3: Difference = 10. Shortcut for 2 years: difference = P x (r/100)^2 = 1000 x 0.01 = Rs 10.",
+     "topic": "Compound interest",
+     "old_answer_index": 0,
+     "slot_order": [
+      0,
+      2,
+      3,
+      1
+     ],
+     "check": "1000*1.1**2 - 1000 - 1000*10*2/100",
+     "number": 97
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "What fraction of a day is 4 hours 48 minutes?",
+     "options": [
+      "1/6",
+      "1/4",
+      "1/5",
+      "2/9"
+     ],
+     "answer_index": 2,
+     "answer": "1/5",
+     "explanation": "Step 1: 4 h 48 min = 4 x 60 + 48 = 288 minutes. Step 2: One day = 24 x 60 = 1,440 minutes. Step 3: 288/1440 = 1/5.",
+     "topic": "Fractions",
+     "old_answer_index": 0,
+     "slot_order": [
+      2,
+      1,
+      0,
+      3
+     ],
+     "check": "288/1440",
+     "number": 98
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The smallest number that must be added to 1,234 to make it divisible by 9 is",
+     "options": [
+      "7",
+      "8",
+      "5",
+      "6"
+     ],
+     "answer_index": 1,
+     "answer": "8",
+     "explanation": "Step 1: Digit sum of 1234 = 1 + 2 + 3 + 4 = 10. Step 2: The next multiple of 9 after 10 is 18. Step 3: 18 - 10 = 8, so 1234 + 8 = 1242 and 1242/9 = 138.",
+     "topic": "Divisibility",
+     "old_answer_index": 0,
+     "slot_order": [
+      1,
+      0,
+      3,
+      2
+     ],
+     "check": "9 - 1234%9",
+     "number": 99
+    },
+    {
+     "section": "AR",
+     "section_title": "Arithmetic",
+     "question": "The ratio of the areas of two squares whose sides are 3 cm and 5 cm is",
+     "options": [
+      "9 : 20",
+      "9 : 25",
+      "3 : 5",
+      "9 : 16"
+     ],
+     "answer_index": 1,
+     "answer": "9 : 25",
+     "explanation": "Step 1: Area of a square = side^2, so the areas are 9 and 25 sq cm. Step 2: Ratio = 9 : 25. Step 3: Note that the ratio of areas is the square of the ratio of sides (3 : 5), not the ratio itself.",
+     "topic": "Area",
+     "old_answer_index": 0,
+     "slot_order": [
+      3,
+      0,
+      1,
+      2
+     ],
+     "check": "9/25",
+     "number": 100
+    }
+   ]
+  }
+ ]
+}

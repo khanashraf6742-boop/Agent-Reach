@@ -1,0 +1,176 @@
+{
+  "seed": 20261030,
+  "papers": {
+    "Paper 1": {
+      "questions": 100,
+      "sections": {
+        "ENG": 30,
+        "GS": 40,
+        "AR": 30
+      },
+      "answer_spread": {
+        "A": 24,
+        "B": 27,
+        "C": 20,
+        "D": 29
+      },
+      "topics": {
+        "ENG": {
+          "Preposition": 3,
+          "Synonym": 2,
+          "Antonym": 2,
+          "Idiom": 2,
+          "Phrasal verb": 2,
+          "Voice": 2,
+          "Narration": 1,
+          "Article": 1,
+          "Subject-verb agreement": 1,
+          "Tense": 1,
+          "One-word substitution": 2,
+          "Collective noun": 1,
+          "Gender": 1,
+          "Parts of speech": 1,
+          "Sentence type": 1,
+          "Spelling": 1,
+          "Homophone": 1,
+          "Conjunction": 1,
+          "Modal verb": 1,
+          "Error spotting": 1,
+          "Degrees of comparison": 1,
+          "Number": 1
+        },
+        "GS": {
+          "WB Geography": 5,
+          "WB Static GK": 1,
+          "Modern History": 4,
+          "Ancient History": 2,
+          "Indian Geography": 4,
+          "Polity": 6,
+          "Physics": 1,
+          "Biology": 3,
+          "Science": 1,
+          "Economy": 3,
+          "Current Affairs": 10
+        },
+        "AR": {
+          "Percentage": 3,
+          "Profit and loss": 2,
+          "Simple interest": 2,
+          "Compound interest": 1,
+          "Ratio": 1,
+          "Average": 2,
+          "Time and work": 3,
+          "Pipes and cisterns": 1,
+          "Speed conversion": 1,
+          "Trains": 1,
+          "Boats and streams": 1,
+          "Mixture": 1,
+          "HCF and LCM": 1,
+          "Fractions": 1,
+          "Ages": 1,
+          "Clocks": 1,
+          "Calendar": 1,
+          "Area": 1,
+          "Simplification": 1,
+          "Divisibility": 1,
+          "Discount": 1,
+          "Partnership": 1,
+          "Speed and distance": 1
+        }
+      }
+    },
+    "Paper 2": {
+      "questions": 100,
+      "sections": {
+        "ENG": 30,
+        "GS": 40,
+        "AR": 30
+      },
+      "answer_spread": {
+        "A": 27,
+        "B": 29,
+        "C": 22,
+        "D": 22
+      },
+      "topics": {
+        "ENG": {
+          "Preposition": 3,
+          "Synonym": 2,
+          "Antonym": 2,
+          "Idiom": 2,
+          "Phrasal verb": 2,
+          "Voice": 2,
+          "Narration": 1,
+          "Article": 1,
+          "Subject-verb agreement": 1,
+          "Tense": 1,
+          "One-word substitution": 2,
+          "Collective noun": 1,
+          "Gender": 1,
+          "Parts of speech": 1,
+          "Sentence type": 1,
+          "Spelling": 1,
+          "Homophone": 1,
+          "Conjunction": 1,
+          "Modal verb": 1,
+          "Error spotting": 1,
+          "Degrees of comparison": 1,
+          "Number": 1
+        },
+        "GS": {
+          "WB Geography": 2,
+          "WB Static GK": 2,
+          "Economy": 3,
+          "Modern History": 6,
+          "Ancient History": 1,
+          "Indian Geography": 5,
+          "Polity": 5,
+          "Biology": 3,
+          "Physics": 2,
+          "Science": 1,
+          "Environment": 2,
+          "Current Affairs": 8
+        },
+        "AR": {
+          "Decimals": 1,
+          "Recurring decimals": 1,
+          "HCF and LCM": 2,
+          "Ratio": 1,
+          "Average": 2,
+          "Percentage": 2,
+          "Simple interest": 1,
+          "Profit and loss": 1,
+          "Discount": 1,
+          "Speed and distance": 1,
+          "Trains": 1,
+          "Time and work": 1,
+          "Pipes and cisterns": 1,
+          "Boats and streams": 1,
+          "Ages": 1,
+          "Clocks": 1,
+          "Calendar": 1,
+          "Area": 3,
+          "Divisibility": 2,
+          "Simplification": 1,
+          "Partnership": 1,
+          "Mixture": 1,
+          "Compound interest": 1,
+          "Fractions": 1
+        }
+      }
+    }
+  },
+  "errors": [],
+  "warnings": [],
+  "checks": {
+    "P1": 200,
+    "P2_num": 58,
+    "P2_exact": 52,
+    "P2_text": 2,
+    "P3_text": 120,
+    "P3_fact": 80,
+    "P3_spread": 2,
+    "reread": 2,
+    "cross_paper": 2
+  }
+}

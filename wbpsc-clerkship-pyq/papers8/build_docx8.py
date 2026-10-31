@@ -246,8 +246,8 @@ p("English 30  \u00b7  General Studies 40  \u00b7  Arithmetic and Reasoning 30",
   bold=True, color=NAVY, align="c", after=16)
 
 table(["Set", "Papers", "Questions", "Marks each", "Time each"],
-      [("Each paper", "1", "100", "100", "60 min"),
-       ("This book", "8", "800", "100", "60 min")],
+      [("Each paper", "1", "100", "100", "90 min"),
+       ("This book", "8", "800", "100", "90 min each")],
       widths=[3.4, 2.2, 2.6, 2.4, 2.6], size=9)
 
 p("2026 edition  \u00b7  prepared 31 October 2026", size=9, color=GREY, align="c",
@@ -262,7 +262,7 @@ h1("What this book is", "and how each of its 800 answers was checked")
 
 p("This is the second Part-I volume: eight complete practice papers in the Commission's "
   "pattern \u2014 30 English, 40 General Studies and 30 Arithmetic and Reasoning questions, "
-  "one mark each, one hour per paper, a quarter mark deducted for a wrong answer. None of the "
+  "one mark each, ninety minutes per paper, a quarter mark deducted for a wrong answer. None of the "
   "800 questions repeats another; each was written for this book.", align="j")
 
 p("The book is machine-checked end to end. Every answer was recomputed from its source \u2014 "
@@ -275,7 +275,7 @@ p("The book is machine-checked end to end. Every answer was recomputed from its 
 
 h2("How to use eight papers")
 bullets([
-    "Sit each paper in sixty minutes, without notes, and mark it the same day while your "
+    "Sit each paper in ninety minutes, at the same time of day as the real examination, and mark it the same day while your "
     "reasoning is still visible to you.",
     "Mark strictly: one mark for a hit, minus a quarter for a miss, nothing for a blank. A "
     "score with the penalty is the only score worth tracking.",
@@ -367,16 +367,16 @@ def options_table(opts, size=9):
 for pi, paper in enumerate(DATA["papers"], start=1):
     doc.add_page_break()
     kicker("Practice paper", before=0)
-    h1(f"Paper {pi}", "100 questions  \u00b7  100 marks  \u00b7  one hour")
+    h1(f"Paper {pi}", "100 questions  \u00b7  100 marks  \u00b7  90 minutes")
     par = p("", after=6)
     shade(par, fill="FBF9F3", border="DCCFA8")
     boxed([
-        "Time allowed: 1 hour.        Full marks: 100.",
+        "Time allowed: 1 hour 30 minutes.        Full marks: 100.",
         "All questions carry one mark. A quarter of a mark is deducted for each wrong answer.",
         "Answer all 100 questions. Section I: English (Q1\u201330). Section II: General Studies "
         "(Q31\u201370). Section III: Arithmetic and Reasoning (Q71\u2013100).",
-        "Choose the single best option. Do not spend more than forty seconds on any question "
-        "in the first pass.",
+        "Choose the single best option. That is fifty-four seconds a question; do not spend more than "
+        "ninety seconds on any one question in the first pass.",
     ], fill="FBF9F3", border="DCCFA8", size=8.5)
 
     last_section = None
@@ -545,7 +545,7 @@ kicker("Appendix C", before=0)
 h1("Sources, and what is practice")
 table(["Item", "Status"],
       [("The pattern", "Part I of the Clerkship examination: 100 marks of objective questions "
-                       "in one hour, with a quarter-mark penalty for a wrong answer."),
+                       "in ninety minutes, with a quarter-mark penalty for a wrong answer."),
        ("The 2023 papers", "The authentic previous-year material is in the separate 2023 pack, "
                            "not in this book."),
        ("These 800 questions", "Written for this book in that pattern. They are not "

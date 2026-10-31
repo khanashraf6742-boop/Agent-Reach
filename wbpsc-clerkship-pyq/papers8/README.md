@@ -1,7 +1,7 @@
 # Part I — eight most-expected papers
 
 `WBPSC_Clerkship_Part1_Eight_Most_Expected_Papers_2026.docx` — eight complete Part-I papers
-(30 English + 40 General Studies + 30 Arithmetic/Reasoning, 100 marks, 60 minutes, quarter-mark
+(30 English + 40 General Studies + 30 Arithmetic/Reasoning, 100 marks, 90 minutes, quarter-mark
 penalty) with eight answer-key grids, 800 stepwise solutions, a topic appendix, a validation
 certificate and a sources appendix. 159 KB, roughly 90 pages.
 

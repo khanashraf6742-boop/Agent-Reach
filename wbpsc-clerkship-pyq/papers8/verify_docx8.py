@@ -108,6 +108,12 @@ badx = [(i // 100 + 1, it["no"]) for i, it in enumerate(items)
         if it["expl"].strip() not in [e for _, _, e in sol.get(it["no"], [])]]
 check(not badx, "S.09 solution explanation verbatim", badx[:3])
 
+clock = [x.text for x in doc.paragraphs if x.text.startswith("Time allowed:")]
+check(len(clock) == 8 and all("1 hour 30 minutes" in c for c in clock),
+      "S.12 Part I clock is the official 90 minutes", clock[:2])
+check(not any("one hour" in x.text or "60 min" in x.text for x in doc.paragraphs),
+      "S.13 no 60-minute claim left in a Part-I paper")
+
 heads = [x.text for x in doc.paragraphs
          if x.text.startswith(("Section I", "Section II", "Section III"))]
 check(len(heads) == 24, "S.10 3 section headers x 8 papers", len(heads))

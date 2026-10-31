@@ -32,6 +32,9 @@ python3 -m venv /tmp/pdfenv && /tmp/pdfenv/bin/pip install xhtml2pdf
 | `WBPSC_Clerkship_Part1_Eight_Most_Expected_Papers_2026.docx` | **Eight** more Part-I papers, 800 questions, keys, 800 stepwise solutions, and a validation certificate. Pipeline and audit in `papers8/`. |
 | `WBPSC_Clerkship_Part2_Model_Papers_2026.docx` | Two Part-II papers (report, précis, translation) with model answers and marking schemes. Pipeline in `part2/`. |
 
+| `WBPSC_Clerkship_GS_Revision_Sheets_2026.docx` | Seven General Studies revision sheets, one page per topic. |
+| `WBPSC_Clerkship_Arithmetic_Formula_Sheets_2026.docx` | Twenty-three formula sheets, one page per topic, with computed examples and drills. |
+
 These are written in the Commission's pattern for practice. They are **not** previous-year
 questions and have not been approved by the Commission; the authentic 2023 material is above.
 
